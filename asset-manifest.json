@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alburaq/static/css/main.e4abbc83.css",
+    "main.js": "/alburaq/static/js/main.7c90492a.js",
+    "static/js/787.9ca0ae15.chunk.js": "/alburaq/static/js/787.9ca0ae15.chunk.js",
+    "index.html": "/alburaq/index.html",
+    "main.e4abbc83.css.map": "/alburaq/static/css/main.e4abbc83.css.map",
+    "main.7c90492a.js.map": "/alburaq/static/js/main.7c90492a.js.map",
+    "787.9ca0ae15.chunk.js.map": "/alburaq/static/js/787.9ca0ae15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4abbc83.css",
+    "static/js/main.7c90492a.js"
+  ]
+}
