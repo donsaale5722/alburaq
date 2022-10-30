@@ -16,7 +16,7 @@ const Footer = () =>{
             </div>
             <div className="col-lg-8 col-md-12">
                 <div className="row">
-                    <div className="col-md-4 mb-5">
+                    {/* <div className="col-md-4 mb-5">
                         <h5 className="text-secondary text-uppercase mb-4">Quick Shop</h5>
                         <div className="d-flex flex-column justify-content-start">
                             <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Home</NavLink>
@@ -37,7 +37,7 @@ const Footer = () =>{
                             <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Checkout</NavLink>
                             <NavLink className="text-secondary" to="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</NavLink>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-4 mb-5">
                         {/* <h5 className="text-secondary text-uppercase mb-4">Newsletter</h5>
                         <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
