@@ -58,7 +58,7 @@ const Header = () =>{
             <div className="col-lg-4">
                 <NavLink to="" className="text-decoration-none">
                     <span className="h1 text-uppercase text-primary bg-dark px-2">Al</span> 
-                    <span className="h1 text-uppercase text-dark bg-primary px-2 ml-n1">BuraQ</span>
+                    <span className="h1 text-uppercase text-dark bg-primary px-2 ml-n1">BurraQ</span>
                 </NavLink>
             </div>
             <div className="col-lg-4 col-6 text-left">

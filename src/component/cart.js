@@ -15,6 +15,7 @@ const Cart = () =>{
                 </nav>
             </div>
         </div>
+        
     </div>
     {/* <!-- Breadcrumb End --> */}
 
