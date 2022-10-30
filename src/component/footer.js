@@ -8,7 +8,7 @@ const Footer = () =>{
     <div className="container-fluid bg-dark text-secondary mt-5 pt-5">
         <div className="row px-xl-5 pt-5">
             <div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-                <h5 className="text-secondary text-uppercase mb-4">AL-BURAK | PERFUMES</h5>
+                <h5 className="text-secondary text-uppercase mb-4">AL-BURAQ | PERFUMES</h5>
                 <p className="mb-4">We are selling attar and perfumes! We have our own product and best quality.</p>
                 <p className="mb-2"><i className="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
                 <p className="mb-2"><i className="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
