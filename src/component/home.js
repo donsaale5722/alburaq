@@ -21,7 +21,7 @@ const Home = () =>{
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{maxWidth: "700px"}}>
                                     <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">Men's Perfumes</h1>
-                                    <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
+                                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
                                     <NavLink className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" to="#">Shop Now</NavLink>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ const Home = () =>{
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{maxWidth: "700px"}}>
                                     <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">Women's Perfumes</h1>
-                                    <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
+                                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
                                     <NavLink className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" to="#">Shop Now</NavLink>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Home = () =>{
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{maxWidth: "700px"}}>
                                     <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">Kids Fashion</h1>
-                                    <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
+                                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
                                     <NavLink className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" to="#">Shop Now</NavLink>
                                 </div>
                             </div>
@@ -54,16 +54,16 @@ const Home = () =>{
                 <div className="product-offer mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt=""/>
                     <div className="offer-text">
-                        <h6 className="text-white text-uppercase">Save 20%</h6>
-                        <h3 className="text-white mb-3">Special Offer</h3>
+                        {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
                         <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
                     </div>
                 </div>
                 <div className="product-offer2 mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/al-barid.jfif" alt=""/>
                     <div className="offer-text">
-                        <h6 className="text-white text-uppercase">Save 20%</h6>
-                        <h3 className="text-white mb-3">Special Offer</h3>
+                        {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
                         <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
                     </div>
                 </div>
