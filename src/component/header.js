@@ -8,51 +8,7 @@ const Header = () =>{
 <!-- Topbar Start --> */}
     <div className="container-fluid">
         <div className="row bg-secondary py-1 px-xl-5">
-            <div className="col-lg-6 d-none d-lg-block">
-                <div className="d-inline-flex align-items-center h-100">
-                    <NavLink className="text-body mr-3" to="">About</NavLink>
-                    <NavLink className="text-body mr-3" to="">Contact</NavLink>
-                    <NavLink className="text-body mr-3" to="">Help</NavLink>
-                    <NavLink className="text-body mr-3" to="">FAQs</NavLink>
-                </div>
-            </div>
-            <div className="col-lg-6 text-center text-lg-right">
-                <div className="d-inline-flex align-items-center">
-                    <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">My Account</button>
-                        <div className="dropdown-menu dropdown-menu-right">
-                            <button className="dropdown-item" type="button">Sign in</button>
-                            <button className="dropdown-item" type="button">Sign up</button>
-                        </div>
-                    </div>
-                    <div className="btn-group mx-2">
-                        <button type="button" className="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">USD</button>
-                        <div className="dropdown-menu dropdown-menu-right">
-                            <button className="dropdown-item" type="button">EUR</button>
-                            <button className="dropdown-item" type="button">GBP</button>
-                            <button className="dropdown-item" type="button">CAD</button>
-                        </div>
-                    </div>
-                    <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">EN</button>
-                        <div className="dropdown-menu dropdown-menu-right">
-                            <button className="dropdown-item" type="button">FR</button>
-                            <button className="dropdown-item" type="button">AR</button>
-                            <button className="dropdown-item" type="button">RU</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="d-inline-flex align-items-center d-block d-lg-none">
-                    <NavLink to="" className="btn px-0 ml-2" style={{paddingBottom: "2px",marginLeft:"5px", border:"hidden"}}>
-                        <i className="fas fa-heart text-dark"></i>
-                        <span className="badge text-dark border border-dark rounded-circle" style={{paddingBottom:"2px",marginLeft:"5px"}}>0</span>
-                    </NavLink>
-                    <NavLink to="" className="btn px-0 ml-2" style={{paddingBottom: "2px",marginLeft:"5px", border:"hidden"}}>
-                        <i className="fas fa-shopping-cart text-dark"></i>
-                        <span className="badge text-dark border border-dark rounded-circle" style={{paddingBottom:"2px",marginLeft:"5px"}}>0</span>
-                    </NavLink>
-                </div>
-            </div>
+        <h5 className="font-weight-semi-bold" style={{marginLeft:"130px", marginTop:"5px"}}><i class="fa fa-phone"></i>&nbsp;&nbsp;+91 9726468826</h5>
         </div>
         <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div className="col-lg-4">

@@ -9,13 +9,13 @@ const Home = () =>{
         <div className="row px-xl-5">
             <div className="col-lg-8">
 
-                <div id="header-carousel" className="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
+                <div id="header-carousel" className="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel" height="100px">
                     <ol className="carousel-indicators">
                         <li data-target="#header-carousel" data-slide-to="0" className="active"></li>
                         <li data-target="#header-carousel" data-slide-to="1"></li>
                         <li data-target="#header-carousel" data-slide-to="2"></li>
                     </ol>
-                    <div className="carousel-inner">
+                    <div className="carousel-inner" style={{height: "220px", width:""}}>
                         <div className="carousel-item position-relative active" style={{height: "430px"}}>
                             <img className="position-absolute w-100 h-100" src="img/oud-mikhlaat.jfif" alt="description"  style={{objectFit: "cover"}}/>
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -50,6 +50,7 @@ const Home = () =>{
                 </div>
             </div>
             <div className="col-lg-4">
+            <h2 className="section-title position-relative text-uppercase mb-4"><span className="bg-secondary pr-3">Trending Collection</span></h2>
                 <div className="product-offer mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt=""/>
                     <div className="offer-text">
@@ -58,7 +59,7 @@ const Home = () =>{
                         <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
                     </div>
                 </div>
-                <div className="product-offer mb-30" style={{height: "200px"}}>
+                <div className="product-offer2 mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/al-barid.jfif" alt=""/>
                     <div className="offer-text">
                         <h6 className="text-white text-uppercase">Save 20%</h6>
@@ -72,7 +73,7 @@ const Home = () =>{
 
     
     {/* <!-- Featured Start --> */}
-    <div className="container-fluid pt-5">
+    {/* <div className="container-fluid pt-5">
         <div className="row px-xl-5 pb-3">
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center bg-light mb-4" style={{padding: "30px"}}>
@@ -99,11 +100,11 @@ const Home = () =>{
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* <!-- Featured End --> */}
 
     {/* <!-- Categories Start --> */}
-    <div className="container-fluid pt-5">
+    <div className="container-fluid">
         <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-secondary pr-3">Categories</span></h2>
         <div className="row px-xl-5 pb-3">
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
@@ -388,10 +389,11 @@ const Home = () =>{
     
 
     {/* <!-- Offer Start --> */}
-    <div className="container-fluid pt-5 pb-3">
+    <div className="container-fluid ">
+        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-secondary pr-3">Special Offer</span></h2>
         <div className="row px-xl-5">
-            <div className="col-md-6">
-                <div className="product-offer mb-30" style={{height: "300px"}}>
+           <div className="col-md-6">
+                <div className="product-offer mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/tathir.jfif" alt=""/>
                     <div className="offer-text">
                         <h6 className="text-white text-uppercase">Save 20%</h6>
@@ -401,7 +403,7 @@ const Home = () =>{
                 </div>
             </div>
             <div className="col-md-6">
-                <div className="product-offer mb-30" style={{height: "300px"}}>
+                <div className="product-offer2 mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/deer-musk.jfif" alt=""/>
                     <div className="offer-text">
                         <h6 className="text-white text-uppercase">Save 20%</h6>
