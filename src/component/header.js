@@ -72,7 +72,7 @@ const Header = () =>{
                 <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
                     <NavLink to="" className="text-decoration-none d-block d-lg-none">
                         <span className="h1 text-uppercase text-dark bg-light px-2">Al</span>
-                        <span className="h1 text-uppercase text-light bg-primary px-2 ml-n1">BurraQ</span>
+                        <span className="h1 text-uppercase text-light bg-primary px-2 ml-n1">BuraQ</span>
                     </NavLink>
                     <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
