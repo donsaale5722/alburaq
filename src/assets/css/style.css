@@ -9570,17 +9570,21 @@ a.text-dark:hover, a.text-dark:focus {
 .product-offer {
   position: relative;
   overflow: hidden;
+  width: 700px;
 }
 .product-offer2 {
   position: relative;
   overflow: hidden;
+  width: 700px;
+  margin-left: 710px;
+  margin-top: -230px;
 }
 @media (max-width: 914px) {
   .product-offer {
-    width: 180px;
+    width: 175px;
   }
   .product-offer2{
-    width: 180px;
+    width: 175px;
     margin-left: 185px;
     margin-top: -230px;
   }

@@ -6,8 +6,8 @@ const Home = () =>{
         <>
         
     <div className="container-fluid mb-3">
-        <div className="row px-xl-5">
-            <div className="col-lg-8">
+        <div className="row ">
+            <div className="col-lg-12" >
 
                 <div id="header-carousel" className="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel" height="100px">
                     <ol className="carousel-indicators">
@@ -15,7 +15,7 @@ const Home = () =>{
                         <li data-target="#header-carousel" data-slide-to="1"></li>
                         <li data-target="#header-carousel" data-slide-to="2"></li>
                     </ol>
-                    <div className="carousel-inner" style={{height: "220px", width:""}}>
+                    <div className="carousel-inner" style={{height: "220px"}}>
                         <div className="carousel-item position-relative active" style={{height: "430px"}}>
                             <img className="position-absolute w-100 h-100" src="img/oud-mikhlaat.jfif" alt="description"  style={{objectFit: "cover"}}/>
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -49,7 +49,10 @@ const Home = () =>{
                     </div>
                 </div>
             </div>
-            <div className="col-lg-4">
+            
+        </div>
+    </div>
+    <div className="col-lg-12">
             <h2 className="section-title position-relative text-uppercase mb-4"><span className="bg-secondary pr-3">Trending Collection</span></h2>
                 <div className="product-offer mb-30" style={{height: "200px"}}>
                     <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt=""/>
@@ -68,9 +71,6 @@ const Home = () =>{
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
     
     {/* <!-- Featured Start --> */}
     {/* <div className="container-fluid pt-5">
