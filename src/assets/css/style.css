@@ -9579,12 +9579,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 710px;
   margin-top: -230px;
 }
-@media (max-width: 914px) {
+@media only screen and (max-width: 400px) {
   .product-offer {
-    width: 175px;
+    width: 180px;
   }
   .product-offer2{
-    width: 175px;
+    width: 180px;
     margin-left: 185px;
     margin-top: -230px;
   }
