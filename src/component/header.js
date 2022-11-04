@@ -12,7 +12,7 @@ const Header = () =>{
         </div>
         <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div className="col-lg-4">
-                <NavLink to="" className="mobile text-decoration-none">
+                <NavLink to="" className="text-decoration-none">
                     <span className="h1 text-uppercase text-primary bg-dark px-2">Al</span> 
                     <span className="h1 text-uppercase text-dark bg-primary px-2 ml-n1">BuraQ</span>
                 </NavLink>
@@ -70,7 +70,7 @@ const Header = () =>{
             </div>
             <div className="col-lg-9">
                 <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
-                    <NavLink to="" className="text-decoration-none d-block d-lg-none">
+                    <NavLink to="" className="mobile text-decoration-none d-block d-lg-none">
                         <span className="h1 text-uppercase text-dark bg-light px-2">Al</span>
                         <span className="h1 text-uppercase text-light bg-primary px-2 ml-n1">BuraQ</span>
                     </NavLink>
