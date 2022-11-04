@@ -9588,6 +9588,15 @@ a.text-dark:hover, a.text-dark:focus {
     margin-left: 185px;
     margin-top: -230px;
   }
+  .filter{
+    width: 100%;
+  }
+}
+.filter{
+  width: 14em;
+}
+.short{
+  width: 150%;
 }
 .product-offer img {
   position: absolute;

@@ -27,7 +27,7 @@ const Product = () =>{
             <div className="col-lg-3 col-md-4">
                 {/* <!-- Price Start --> */}
                 <h5 className="section-title position-relative text-uppercase mb-3"><span className="bg-secondary pr-3">Filter by price</span></h5>
-                <div className="bg-light p-4 mb-30">
+                {/* <div className="bg-light p-4 mb-30">
                     <form>
                         <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" className="custom-control-input" checked id="price-all"/>
@@ -60,7 +60,7 @@ const Product = () =>{
                             <span className="badge border font-weight-normal">168</span>
                         </div>
                     </form>
-                </div>
+                </div> */}
                 {/* <!-- Price End --> */}
                 
                 {/* <!-- Color Start --> */}
@@ -154,10 +154,44 @@ const Product = () =>{
                             <div className="ml-2">
                                 <div className="btn-group">
                                     <button type="button" className="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sorting</button>
-                                    <div className="dropdown-menu dropdown-menu-right">
-                                        <NavLink className="dropdown-item" to="#">Latest</NavLink>
+                                    <div className="dropdown-menu dropdown-menu-right" style={{width: "15em"}}>
+                                        {/* <NavLink className="dropdown-item" to="#">Latest</NavLink>
                                         <NavLink className="dropdown-item" to="#">Popularity</NavLink>
-                                        <NavLink className="dropdown-item" to="#">Best Rating</NavLink>
+                                        <NavLink className="dropdown-item" to="#">Best Rating</NavLink> */}
+                                        <div className="filter bg-light p-4 mb-30">
+                    <form>
+                        <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" className="custom-control-input" checked id="price-all"/>
+                            <label className="custom-control-label" for="price-all">All Price</label>
+                            <span className="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" className="custom-control-input" id="price-1"/>
+                            <label className="custom-control-label" for="price-1">$0 - $100</label>
+                            <span className="badge border font-weight-normal">150</span>
+                        </div>
+                        <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" className="custom-control-input" id="price-2"/>
+                            <label className="custom-control-label" for="price-2">$100 - $200</label>
+                            <span className="badge border font-weight-normal">295</span>
+                        </div>
+                        <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" className="custom-control-input" id="price-3"/>
+                            <label className="custom-control-label" for="price-3">$200 - $300</label>
+                            <span className="badge border font-weight-normal">246</span>
+                        </div>
+                        <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" className="custom-control-input" id="price-4"/>
+                            <label className="custom-control-label" for="price-4">$300 - $400</label>
+                            <span className="badge border font-weight-normal">145</span>
+                        </div>
+                        <div className="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" className="custom-control-input" id="price-5"/>
+                            <label className="custom-control-label" for="price-5">$400 - $500</label>
+                            <span className="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
                                     </div>
                                 </div>
                                 <div className="btn-group ml-2">
