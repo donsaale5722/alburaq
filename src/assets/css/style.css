@@ -5972,7 +5972,7 @@ a.close.disabled {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 15;
+  z-index: 2;
   display: flex;
   justify-content: center;
   padding-left: 0;
@@ -9801,11 +9801,10 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: -95px;
 }
 #btn:checked ~ .menu-btn{
-  left: 247px;
+  left: 340px;
 }
 .wrapper .menu-btn i{
   position: absolute;
-  transform: ;
   font-size: 23px;
   transition: all 0.3s ease;
 }
@@ -9821,13 +9820,15 @@ a.text-dark:hover, a.text-dark:focus {
   transform: rotate(180deg);
 }
 #sidebar{
+  margin-top: -97px;
   position: fixed;
   background: #404040;
   height: 100%;
-  width: 270px;
+  width: 100%;
   overflow: hidden;
-  left: -270px;
+  left: -500px;
   transition: all 0.3s ease;
+  z-index: 3;
 }
 #btn:checked ~ #sidebar{
   left: 0;
@@ -9923,3 +9924,5 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 700;
 }
 }
+
+

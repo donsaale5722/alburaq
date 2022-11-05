@@ -126,15 +126,16 @@ const Header = () =>{
                <li><a href="#"><i class="fas fa-user"></i>About us</a></li>
                <li><a href="#"><i class="fas fa-globe-asia"></i>Languages</a></li>
                <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
-               <div class="icons">
+               {/* {/* <div class="icons">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-github"></i></a>
                   <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
+               </div> */}
             </ul>
          </nav>
-      </div>
+      </div> 
+           
         </>
     );
 }
