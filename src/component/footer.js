@@ -14,6 +14,7 @@ const Footer = () =>{
                 <p className="mb-2"><i className="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
                 <p className="mb-0"><i className="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
             </div>
+            
             <div className="col-lg-8 col-md-12">
                 <div className="row">
                     {/* <div className="col-md-4 mb-5">

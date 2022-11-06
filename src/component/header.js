@@ -42,7 +42,7 @@ const Header = () =>{
     <div className="container-fluid bg-dark mb-30">
         <div className="row px-xl-5">
             <div className="col-lg-3 d-none d-lg-block">
-                <NavLink className="btn d-flex align-items-center justify-content-between bg-primary w-100" data-toggle="collapse" href="#navbar-vertical" style={{height: "65px", padding:" 0 30px"}}>
+                <NavLink className="btn d-flex align-items-center justify-content-between bg-primary w-100" data-toggle="collapse" to="#navbar-vertical" style={{height: "65px", padding:" 0 30px"}}>
                     <h6 className="text-dark m-0"><i className="fa fa-bars mr-2"></i>Categories</h6>
                     <i className="fa fa-angle-down text-dark"></i>
                 </NavLink>
@@ -70,6 +70,7 @@ const Header = () =>{
             </div>
             <div className="col-lg-9">
                 <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+                    
                     <NavLink to="" className="mobile text-decoration-none d-block d-lg-none">
                         <span className="h1 text-uppercase text-dark bg-light px-2">Al</span>
                         <span className="h1 text-uppercase text-light bg-primary px-2 ml-n1">BuraQ</span>
@@ -107,34 +108,7 @@ const Header = () =>{
         </div>
     </div>
     {/* <!-- Navbar End --> */}
-    <div class="wrapper">
-         <input type="checkbox" id="btn" hidden/>
-         <label for="btn" class="menu-btn">
-         <i class="fas fa-bars"></i>
-         <i class="fas fa-times"></i>
-         </label>
-         <nav id="sidebar">
-            <div class="title">
-               Side Menu
-            </div>
-            <ul class="list-items">
-               <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-               <li><a href="#"><i class="fas fa-sliders-h"></i>Clients</a></li>
-               <li><a href="#"><i class="fas fa-address-book"></i>Services</a></li>
-               <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
-               <li><a href="#"><i class="fas fa-stream"></i>Features</a></li>
-               <li><a href="#"><i class="fas fa-user"></i>About us</a></li>
-               <li><a href="#"><i class="fas fa-globe-asia"></i>Languages</a></li>
-               <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
-               {/* {/* <div class="icons">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-github"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-               </div> */}
-            </ul>
-         </nav>
-      </div> 
+    
            
         </>
     );
