@@ -9579,7 +9579,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 710px;
   margin-top: -230px;
 }
-@media only screen and (max-width: 480px) {
+@media   (max-width: 480px) {
   .product-offer {
     width: 49%;
   }
@@ -9591,14 +9591,12 @@ a.text-dark:hover, a.text-dark:focus {
   .filter{
     width: 100%;
   }
+  
+}
+@media only screen and (max-width: 768px) {
   #header-carousel{
     width: 380px;
     margin-left: -10px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .mobile{
-    margin-left: 30%;
   }
 }
 .filter{
