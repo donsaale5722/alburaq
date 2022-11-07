@@ -9595,7 +9595,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 @media only screen and (max-width: 768px) {
   #header-carousel{
-    width: 370px;
+    width: 375px;
     margin-left: -10px;
   }
 }
