@@ -1,90 +1,113 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Footer = () =>{
-    return(
-        <>
-            {/* <!-- Footer Start --> */}
-    <div className="container-fluid bg-dark text-secondary">
+const Footer = () => {
+  return (
+    <>
+      {/* <!-- Footer Start --> */}
+      <div className="container-fluid bg-dark text-secondary">
         <div className="row px-xl-5 pt-5">
-            <div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-                <h5 className="text-secondary text-uppercase mb-4">AL-BURAQ | PERFUMES</h5>
-                <p className="mb-4">We are selling attar and perfumes! We have our own product and best quality.</p>
-                <p className="mb-2"><i className="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
+          <div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+            <h5 className="text-secondary text-uppercase mb-4">
+              AL-BURAQ | PERFUMES
+            </h5>
+            <p className="mb-4">
+              We are selling attar and perfumes! We have our own product and
+              best quality.
+            </p>
+            {/* <p className="mb-2"><i className="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
                 <p className="mb-2"><i className="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                <p className="mb-0"><i className="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
-            </div>
-            <div class="col-xs-12 col-md-5th-1">
-<h3 class="footer_title active">Customer Service<i class="fa fa-angle-down" aria-hidden="true"></i></h3>
-<ul style="overflow: hidden; display: block;">
-<li><a href="https://shop.ajmalperfume.com/shipping">Shipping</a></li>
-<li><a href="https://shop.ajmalperfume.com/returns">Returns</a></li>
-<li><a href="https://shop.ajmalperfume.com/payment">Payment</a></li>
-<li><a href="https://shop.ajmalperfume.com/faq">Faqs</a></li>
-<li><a href="https://shop.ajmalperfume.com/store-locator">Store Locator</a></li>
-<li><a href="https://shop.ajmalperfume.com/uae_en/sitemap">Sitemap</a></li>
-<li><a href="https://shop.ajmalperfume.com/contactus">Contact Us</a></li>
-</ul>
-</div>
-            <div className="col-lg-8 col-md-12">
-                <div className="row">
-                    {/* <div className="col-md-4 mb-5">
-                        <h5 className="text-secondary text-uppercase mb-4">Quick Shop</h5>
-                        <div className="d-flex flex-column justify-content-start">
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Home</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Our Shop</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Shop Detail</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Shopping Cart</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Checkout</NavLink>
-                            <NavLink className="text-secondary" to="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</NavLink>
-                        </div>
+                <p className="mb-0"><i className="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p> */}
+          </div>
+
+          <div className="col-lg-8 col-md-12">
+            <div className="row">
+              <div class="wrapper">
+                {/* <!-- Accordion Heading One --> */}
+                <div class="parent-tab">
+                  <input type="radio" name="tab" id="tab-1" checked />
+                  <label for="tab-1">
+                    <span>Connect with us</span>
+                    <div class="icon">
+                      <i class="fas fa-plus"></i>
                     </div>
-                    <div className="col-md-4 mb-5">
-                        <h5 className="text-secondary text-uppercase mb-4">My Account</h5>
-                        <div className="d-flex flex-column justify-content-start">
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Home</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Our Shop</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Shop Detail</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Shopping Cart</NavLink>
-                            <NavLink className="text-secondary mb-2" to="#"><i className="fa fa-angle-right mr-2"></i>Checkout</NavLink>
-                            <NavLink className="text-secondary" to="#"><i className="fa fa-angle-right mr-2"></i>Contact Us</NavLink>
-                        </div>
-                    </div> */}
-                    <div className="col-md-4 mb-5">
-                        {/* <h5 className="text-secondary text-uppercase mb-4">Newsletter</h5>
-                        <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
-                        <form action="">
-                            <div className="input-group">
-                                <input type="text" className="form-control" placeholder="Your Email Address"/>
-                                <div className="input-group-append">
-                                    <button className="btn btn-primary">Sign Up</button>
-                                </div>
-                            </div>
-                        </form> */}
-                        <h6 className="text-secondary text-uppercase mt-1 mb-3">Follow Us</h6>
-                        <div className="d-flex">
-                            <NavLink className="btn btn-primary btn-square mr-2" to="#"><i className="fab fa-twitter"></i></NavLink>
-                            <NavLink className="btn btn-primary btn-square mr-2" to="#"><i className="fab fa-facebook-f"></i></NavLink>
-                            <NavLink className="btn btn-primary btn-square mr-2" to="#"><i className="fab fa-linkedin-in"></i></NavLink>
-                            <NavLink className="btn btn-primary btn-square" to="#"><i className="fab fa-instagram"></i></NavLink>
-                        </div>
-                    </div>
+                  </label>
+                  <div class="content">
+                    <p className="mb-2">
+                      <i className="fa fa-map-marker-alt text-primary mr-3"></i>
+                      123 Street, New York, USA
+                    </p>
+                    <p className="mb-2">
+                      <i className="fa fa-envelope text-primary mr-3"></i>
+                      info@example.com
+                    </p>
+                    <p className="mb-0">
+                      <i className="fa fa-phone-alt text-primary mr-3"></i>+012
+                      345 67890
+                    </p>{" "}
+                  </div>
                 </div>
+                {/* <!-- Accordion Heading Two --> */}
+                <div class="parent-tab">
+                  <input type="radio" name="tab" id="tab-2" />
+                  <label for="tab-2">
+                    <span>Follow Us</span>
+                    <div class="icon">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </label>
+                  <div class="content">
+                    <p>
+                      <div className="d-flex">
+                        <NavLink
+                          className="btn btn-primary btn-square mr-2"
+                          to="#"
+                        >
+                          <i className="fab fa-twitter"></i>
+                        </NavLink>
+                        <NavLink
+                          className="btn btn-primary btn-square mr-2"
+                          to="#"
+                        >
+                          <i className="fab fa-facebook-f"></i>
+                        </NavLink>
+                        <NavLink
+                          className="btn btn-primary btn-square mr-2"
+                          to="#"
+                        >
+                          <i className="fab fa-linkedin-in"></i>
+                        </NavLink>
+                        <NavLink className="btn btn-primary btn-square" to="#">
+                          <i className="fab fa-instagram"></i>
+                        </NavLink>
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div className="row border-top mx-xl-5 py-4" style={{borderColor: "rgba(256, 256, 256, .1) !important"}}>
-            <div className="col-md-6 px-xl-0">
-                <p className="mb-md-0 text-center text-md-left text-secondary">
-                    &copy; <NavLink className="text-primary" to="#">AL-Burak.com</NavLink>. All Rights Reserved.
-                </p>
-            </div>
-            <div className="col-md-6 px-xl-0 text-center text-md-right">
-                <img className="img-fluid" src="img/payments.png" alt=""/>
-            </div>
+        <div
+          className="row border-top mx-xl-5 py-4"
+          style={{ borderColor: "rgba(256, 256, 256, .1) !important" }}
+        >
+          <div className="col-md-6 px-xl-0">
+            <p className="mb-md-0 text-center text-md-left text-secondary">
+              &copy;{" "}
+              <NavLink className="text-primary" to="#">
+                AL-Burak.com
+              </NavLink>
+              . All Rights Reserved.
+            </p>
+          </div>
+          <div className="col-md-6 px-xl-0 text-center text-md-right">
+            <img className="img-fluid" src="img/payments.png" alt="" />
+          </div>
         </div>
-    </div>
-    {/* <!-- Footer End --> */}
-        </>
-    );
-}
+      </div>
+      {/* <!-- Footer End --> */}
+    </>
+  );
+};
 export default Footer;
