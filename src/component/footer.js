@@ -84,6 +84,20 @@ const Footer = () => {
                     </p>
                   </div>
                 </div>
+                <div class="parent-tab">
+                  <input type="radio" name="tab" id="tab-3" />
+                  <label for="tab-3">
+                    <span>Our Service</span>
+                    <div class="icon">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </label>
+                  <div class="content">
+                    <p className="mb-2">Quality Product</p>
+                    <p className="mb-2">Free Shipping</p>
+                    <p className="mb-2">24/7 Support</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
