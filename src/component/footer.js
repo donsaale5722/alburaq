@@ -29,7 +29,7 @@ const Footer = () => {
                   <label for="tab-1">
                     <span>Connect with us</span>
                     <div class="icon">
-                      <i class="fas fa-plus"></i>
+                    <i class="fa fa-angle-down"></i>
                     </div>
                   </label>
                   <div class="content">
@@ -53,7 +53,7 @@ const Footer = () => {
                   <label for="tab-2">
                     <span>Follow Us</span>
                     <div class="icon">
-                      <i class="fas fa-plus"></i>
+                    <i class="fa fa-angle-down"></i>
                     </div>
                   </label>
                   <div class="content">
@@ -89,7 +89,7 @@ const Footer = () => {
                   <label for="tab-3">
                     <span>Our Service</span>
                     <div class="icon">
-                      <i class="fas fa-plus"></i>
+                    <i class="fa fa-angle-down"></i>
                     </div>
                   </label>
                   <div class="content">
