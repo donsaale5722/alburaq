@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^(www\.)?alburaqperfume\.com$ [NC]
+RewriteRule !^build/ /build%{REQUEST_URI} [L,NC]
