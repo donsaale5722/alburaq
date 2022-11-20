@@ -123,39 +123,79 @@ const Header = () => {
               </div>
             </nav>
           </div>
-          <div className="col-lg-9">
+          <div className="col-lg-9 col-sm-12">
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
               {/* <!--/.Navbar--> */}
               {/* <div className="header"></div> */}
+              {/* <i class="fas fa-plus" data-toggle="modal" data-target="#myModal"></i> */}
               <div className="wrapper1">
-         <input type="checkbox" id="btn" hidden/>
-         <label for="btn" className="menu-btn">
-         <i className="fas fa-bars"></i>
-         <i className="fas fa-times"></i>
-         </label>
-         <nav id="sidebar">
-            <div className="title">
-               Side Menu
-            </div>
-            <ul className="list-items">
-               <li><NavLink to="#"><i className="fas fa-home"></i>Home</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-sliders-h"></i>Clients</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-address-book"></i>Services</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-cog"></i>Settings</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-stream"></i>Features</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-user"></i>About us</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-globe-asia"></i>Languages</NavLink></li>
-               <li><NavLink to="#"><i className="fas fa-envelope"></i>Contact us</NavLink></li>
-               <div className="icons">
-                  <NavLink to="#"><i className="fab fa-facebook-f"></i></NavLink>
-                  <NavLink to="#"><i className="fab fa-twitter"></i></NavLink>
-                  <NavLink to="#"><i className="fab fa-github"></i></NavLink>
-                  <NavLink to="#"><i className="fab fa-youtube"></i></NavLink>
-               </div>
-            </ul>
-         </nav>
-      </div>
-      
+                <input type="checkbox" id="btn" hidden />
+                <label for="btn" className="menu-btn">
+                  <i className="fas fa-bars"></i>
+                  <i className="fas fa-times"></i>
+                </label>
+                <nav id="sidebar">
+                  <div className="title">Side Menu</div>
+                  <ul className="list-items">
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-home"></i>Home
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-sliders-h"></i>Clients
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-address-book"></i>Services
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-cog"></i>Settings
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-stream"></i>Features
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-user"></i>About us
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-globe-asia"></i>Languages
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="#">
+                        <i className="fas fa-envelope"></i>Contact us
+                      </NavLink>
+                    </li>
+                    <div className="icons">
+                      <NavLink to="#">
+                        <i className="fab fa-facebook-f"></i>
+                      </NavLink>
+                      <NavLink to="#">
+                        <i className="fab fa-twitter"></i>
+                      </NavLink>
+                      <NavLink to="#">
+                        <i className="fab fa-github"></i>
+                      </NavLink>
+                      <NavLink to="#">
+                        <i className="fab fa-youtube"></i>
+                      </NavLink>
+                    </div>
+                  </ul>
+                </nav>
+              </div>
+              
+
               <NavLink
                 to=""
                 className="mobile text-decoration-none d-block d-lg-none"
@@ -168,15 +208,15 @@ const Header = () => {
                   BuraQ
                 </span>
               </NavLink>
-              {/* <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div className="navbar-nav mr-auto py-0">
                             <NavLink to="/" className="nav-item nav-link active">Home</NavLink>
-                            <NavLink to="/product" className="nav-item nav-link">Product</NavLink> */}
-              {/* <NavLink to="detail.html" className="nav-item nav-link">Shop Detail</NavLink> */}
-              {/* <div className="nav-item dropdown">
+                            <NavLink to="/product" className="nav-item nav-link">Product</NavLink>
+              <NavLink to="detail.html" className="nav-item nav-link">Shop Detail</NavLink>
+              <div className="nav-item dropdown">
                                 <NavLink to="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i className="fa fa-angle-down mt-1"></i></NavLink>
                                 <div className="dropdown-menu bg-primary rounded-0 border-0 m-0">
                                     <NavLink to="/cart" className="dropdown-item">Shopping Cart</NavLink>
@@ -184,7 +224,8 @@ const Header = () => {
                                 </div>
                             </div>
                             <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
-                        </div> */}
+                        </div>
+                        </div>
               <div className="navbar-nav ml-auto py-0 d-none d-lg-block">
                 <NavLink
                   to=""
@@ -235,6 +276,25 @@ const Header = () => {
         </div>
       </div>
       {/* <!-- Navbar End --> */}
+      {/* <!-- Modal --> */}
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+  <span class="input-group-text border-0" id="search-addon">
+    <i class="fas fa-search"></i>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  </span>
+
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
     </>
   );
 };

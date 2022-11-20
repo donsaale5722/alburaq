@@ -10007,8 +10007,14 @@ h6 {
 }
 @media only screen and (max-width: 768px) {
   #header-carousel {
-    width: 365px;
-    margin-left: -5px;
+    width: 370px;
+    margin-left: -10px;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
   }
 }
 .filter {
@@ -10284,7 +10290,7 @@ input[type="checkbox"] {
   }
 }
 
-@media (max-width: 480px) {
+@media  only screen and (max-width: 768px) {
   .wrapper1 {
     height: 100%;
     width: 300px;
@@ -10292,7 +10298,7 @@ input[type="checkbox"] {
   }
   .wrapper1 .menu-btn {
     position: absolute;
-    left: 2px;
+    left: 5px;
     top: -5px;
     background: #4a4a4a;
     color: #fff;
@@ -10334,7 +10340,7 @@ input[type="checkbox"] {
     height: 99%;
     width: 100%;
     overflow: hidden;
-    left: -380px;
+    left: -450px;
     transition: all 0.3s ease;
     z-index: 3;
     top: 0%;
@@ -10415,3 +10421,5 @@ input[type="checkbox"] {
     margin-left: 0px;
   }
 }
+
+/* search */
