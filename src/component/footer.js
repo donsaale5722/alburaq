@@ -29,22 +29,26 @@ const Footer = () => {
                   <label for="tab-1">
                     <span>Connect with us</span>
                     <div class="icon">
-                    <i class="fa fa-angle-down"></i>
+                      <i
+                        class="fa fa-angle-down"
+                        data-toggle="collapse"
+                        data-target="#demo1"
+                      ></i>
                     </div>
                   </label>
-                  <div class="content">
+                  <div id="demo1" class="collapse content">
                     <p className="mb-2">
                       <i className="fa fa-map-marker-alt text-primary mr-3"></i>
-                      123 Street, New York, USA
+                      Palanpur higway chhapi, Gujarat-385210 (India).
                     </p>
                     <p className="mb-2">
                       <i className="fa fa-envelope text-primary mr-3"></i>
-                      info@example.com
+                      alburaq.attrprfm@gmail.com
                     </p>
                     <p className="mb-0">
-                      <i className="fa fa-phone-alt text-primary mr-3"></i>+012
-                      345 67890
-                    </p>{" "}
+                      <i className="fa fa-phone-alt text-primary mr-3"></i>+91
+                      9726468826
+                    </p>
                   </div>
                 </div>
                 {/* <!-- Accordion Heading Two --> */}
@@ -53,10 +57,14 @@ const Footer = () => {
                   <label for="tab-2">
                     <span>Follow Us</span>
                     <div class="icon">
-                    <i class="fa fa-angle-down"></i>
+                      <i
+                        class="fa fa-angle-down"
+                        data-toggle="collapse"
+                        data-target="#demo2"
+                      ></i>
                     </div>
                   </label>
-                  <div class="content">
+                  <div id="demo2" class="collapse content">
                     <p>
                       <div className="d-flex">
                         <NavLink
@@ -89,10 +97,14 @@ const Footer = () => {
                   <label for="tab-3">
                     <span>Our Service</span>
                     <div class="icon">
-                    <i class="fa fa-angle-down"></i>
+                      <i
+                        class="fa fa-angle-down"
+                        data-toggle="collapse"
+                        data-target="#demo3"
+                      ></i>
                     </div>
                   </label>
-                  <div class="content">
+                  <div id="demo3" class="collapse content">
                     <p className="mb-2">Quality Product</p>
                     <p className="mb-2">Free Shipping</p>
                     <p className="mb-2">24/7 Support</p>
