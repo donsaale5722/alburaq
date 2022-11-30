@@ -122,7 +122,7 @@ const Footer = () => {
             <p className="mb-md-0 text-center text-md-left text-secondary">
               &copy;{" "}
               <NavLink className="text-primary" to="#">
-                AL-Burak.com
+                AL-BuraQ.com
               </NavLink>
               . All Rights Reserved.
             </p>

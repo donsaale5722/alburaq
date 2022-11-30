@@ -212,10 +212,11 @@ const Header = () => {
                 className="mobile text-decoration-none d-block d-lg-none"
                 style={{ marginLeft: "30%", marginTop: "-46px" }}
               >
-                <span className="h1 text-uppercase text-dark bg-light px-2">
+                <span className="h1 text-uppercase px-1" style={{color:"#debe75",fontFamily:"bodoniflf"}}>
                   Al
                 </span>
-                <span className="h1 text-uppercase text-light bg-primary px-2 ml-n1">
+                <span className="h1 text-uppercase px-1 ml-n1" style={{color:"#debe75",fontFamily:"bodoniflf"}}
+                >
                   BuraQ
                 </span>
               </NavLink>

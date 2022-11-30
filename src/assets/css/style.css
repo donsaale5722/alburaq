@@ -9998,7 +9998,72 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 185px;
+    margin-left: 165px;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 175px!important;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 194px!important;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 184px!important;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+@media (max-width: 393px){
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 184px!important;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+@media (max-width: 360px){
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 167px!important;
     margin-top: -230px;
   }
   .filter {
