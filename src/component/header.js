@@ -219,7 +219,7 @@ const Header = () => {
                   BuraQ
                 </span>
               </NavLink>
-
+              <NavLink to="/userlogin">
               <div
                 className=""
                 style={{
@@ -229,8 +229,11 @@ const Header = () => {
                   color: "#fff9",
                 }}
               >
+                
                 <i class="fa fa-user"></i>
+                
               </div>
+              </NavLink>
               <div
                 className=""
                 style={{

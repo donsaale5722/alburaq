@@ -13,6 +13,7 @@ import Contact from "./component/contact";
 import Footer from "./component/footer";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Userlogin from "./component/userlogin";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/userlogin" element={<Userlogin />}></Route>
         </Routes>
         <Footer />
       </Router>
