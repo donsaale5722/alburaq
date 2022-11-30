@@ -1,79 +1,137 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Home = () =>{
-    return(
-        <>
-        
-    <div className="container-fluid mb-3">
+const Home = () => {
+  return (
+    <>
+      <div className="container-fluid mb-3">
         <div className="row ">
-            <div className="col-lg-12" >
+          {/* <div className="col-lg-12" > */}
 
-                <div id="header-carousel" className="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel" height="100px">
-                    <ol className="carousel-indicators">
-                        <li data-target="#header-carousel" data-slide-to="0" className="active"></li>
-                        <li data-target="#header-carousel" data-slide-to="1"></li>
-                        <li data-target="#header-carousel" data-slide-to="2"></li>
-                    </ol>
-                    <div className="carousel-inner" style={{height: "220px"}}>
-                        <div className="carousel-item position-relative active" style={{height: "430px"}}>
-                            <img className="position-absolute w-100 h-100" src="img/oud-mikhlaat.jfif" alt="description"  style={{objectFit: "cover"}}/>
-                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3" style={{maxWidth: "700px"}}>
-                                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">Men's Perfumes</h1>
-                                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
-                                    <NavLink className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" to="#">Shop Now</NavLink>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item position-relative" style={{height: "430px"}}>
-                            <img className="position-absolute w-100 h-100" src="../assets/img/carousel-2.jpg" alt="description" style={{objectFit: "cover"}}/>
-                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3" style={{maxWidth: "700px"}}>
-                                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">Women's Perfumes</h1>
-                                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
-                                    <NavLink className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" to="#">Shop Now</NavLink>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item position-relative" style={{height: "430px"}}>
-                            <img className="position-absolute w-100 h-100" src="./img/carousel-3.jpg" alt="description" style={{objectFit: "cover"}}/>
-                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3" style={{maxWidth: "700px"}}>
-                                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">Kids Fashion</h1>
-                                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
-                                    <NavLink className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" to="#">Shop Now</NavLink>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div
+            id="header-carousel"
+            className="carousel slide carousel-fade mb-30 mb-lg-0"
+            data-ride="carousel"
+            height="100px"
+          >
+            <ol className="carousel-indicators">
+              <li
+                data-target="#header-carousel"
+                data-slide-to="0"
+                className="active"
+              ></li>
+              <li data-target="#header-carousel" data-slide-to="1"></li>
+              <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+            <div className="carousel-inner" style={{ height: "220px" }}>
+              <div
+                className="carousel-item position-relative active"
+                style={{ height: "430px" }}
+              >
+                <img
+                  className="position-absolute w-100 h-100"
+                  src="img/oud-mikhlaat.jfif"
+                  alt="description"
+                  style={{ objectFit: "cover" }}
+                />
+                <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                  <div className="p-3" style={{ maxWidth: "700px" }}>
+                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
+                      Men's Perfumes
+                    </h1>
+                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
+                    <NavLink
+                      className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                      to="#"
+                    >
+                      Shop Now
+                    </NavLink>
+                  </div>
                 </div>
+              </div>
+              <div
+                className="carousel-item position-relative"
+                style={{ height: "430px" }}
+              >
+                <img
+                  className="position-absolute w-100 h-100"
+                  src="../assets/img/carousel-2.jpg"
+                  alt="description"
+                  style={{ objectFit: "cover" }}
+                />
+                <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                  <div className="p-3" style={{ maxWidth: "700px" }}>
+                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
+                      Women's Perfumes
+                    </h1>
+                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
+                    <NavLink
+                      className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                      to="#"
+                    >
+                      Shop Now
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="carousel-item position-relative"
+                style={{ height: "430px" }}
+              >
+                <img
+                  className="position-absolute w-100 h-100"
+                  src="./img/carousel-3.jpg"
+                  alt="description"
+                  style={{ objectFit: "cover" }}
+                />
+                <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                  <div className="p-3" style={{ maxWidth: "700px" }}>
+                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
+                      Kids Fashion
+                    </h1>
+                    {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
+                    <NavLink
+                      className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
+                      to="#"
+                    >
+                      Shop Now
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
             </div>
-            
+          </div>
+          {/* </div> */}
         </div>
-    </div>
-    <div className="col-lg-12">
-            <h2 className="section-title position-relative text-uppercase mb-4"><span className="bg-secondary pr-3">Trending Collection</span></h2>
-                <div className="product-offer mb-30" style={{height: "200px"}}>
-                    <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt=""/>
-                    <div className="offer-text">
-                        {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+      </div>
+      <div className="col-lg-12">
+        <h2 className="section-title position-relative text-uppercase mb-4">
+          <span className="bg-secondary pr-3">Trending Collection</span>
+        </h2>
+        <div className="product-offer mb-30" style={{ height: "200px" }}>
+          <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
+          <div className="offer-text">
+            {/* <h6 className="text-white text-uppercase">Save 20%</h6>
                         <h3 className="text-white mb-3">Special Offer</h3> */}
-                        <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
-                    </div>
-                </div>
-                <div className="product-offer2 mb-30" style={{height: "200px"}}>
-                    <img className="img-fluid" src="img/al-barid.jfif" alt=""/>
-                    <div className="offer-text">
-                        {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+            <NavLink to="" className="btn btn-primary">
+              Shop Now
+            </NavLink>
+          </div>
+        </div>
+        <div className="product-offer2 mb-30" style={{ height: "200px" }}>
+          <img className="img-fluid" src="img/al-barid.jfif" alt="" />
+          <div className="offer-text">
+            {/* <h6 className="text-white text-uppercase">Save 20%</h6>
                         <h3 className="text-white mb-3">Special Offer</h3> */}
-                        <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
-                    </div>
-                </div>
-            </div>
-    
-    {/* <!-- Featured Start --> */}
-    {/* <div className="container-fluid pt-5">
+            <NavLink to="" className="btn btn-primary">
+              Shop Now
+            </NavLink>
+          </div>
+        </div>
+      </div>
+
+      {/* <!-- Featured Start --> */}
+      {/* <div className="container-fluid pt-5">
         <div className="row px-xl-5 pb-3">
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center bg-light mb-4" style={{padding: "30px"}}>
@@ -101,69 +159,83 @@ const Home = () =>{
             </div>
         </div>
     </div> */}
-    {/* <!-- Featured End --> */}
+      {/* <!-- Featured End --> */}
 
-    {/* <!-- Categories Start --> */}
-    <div className="container-fluid">
-        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-secondary pr-3">Categories</span></h2>
+      {/* <!-- Categories Start --> */}
+      <div className="container-fluid">
+        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4">
+          <span className="bg-secondary pr-3">Categories</span>
+        </h2>
         <div className="row px-xl-5 pb-3">
-            <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <NavLink className="text-decoration-none" to="">
-                    <div className="cat-item d-flex align-items-center mb-4">
-                        <div className="overflow-hidden" style={{width: "100px", height: "100px"}}>
-                            <img className="img-fluid" src="img/" alt=""/>
-                        </div>
-                        <div className="flex-fill pl-3">
-                            <h6>ATTAR</h6>
-                            <small className="text-body">9 Products</small>
-                        </div>
-                    </div>
-                </NavLink>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <NavLink className="text-decoration-none" to="">
-                    <div className="cat-item img-zoom d-flex align-items-center mb-4">
-                        <div className="overflow-hidden" style={{width: "100px", height: "100px"}}>
-                            <img className="img-fluid" src="img/" alt=""/>
-                        </div>
-                        <div className="flex-fill pl-3">
-                            <h6>PERFUMES</h6>
-                            <small className="text-body">0 Products</small>
-                        </div>
-                    </div>
-                </NavLink>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <NavLink className="text-decoration-none" to="">
-                    <div className="cat-item img-zoom d-flex align-items-center mb-4">
-                        <div className="overflow-hidden" style={{width: "100px", height: "100px"}}>
-                            <img className="img-fluid" src="img/" alt=""/>
-                        </div>
-                        <div className="flex-fill pl-3">
-                            <h6>BAKHOOR</h6>
-                            <small className="text-body">0 Products</small>
-                        </div>
-                    </div>
-                </NavLink>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <NavLink className="text-decoration-none" to="">
-                    <div className="cat-item img-zoom d-flex align-items-center mb-4">
-                        <div className="overflow-hidden" style={{width: "100px", height: "100px"}}>
-                            <img className="img-fluid" src="img/" alt=""/>
-                        </div>
-                        <div className="flex-fill pl-3">
-                            <h6>OUD</h6>
-                            <small className="text-body">0 Products</small>
-                        </div>
-                    </div>
-                </NavLink>
-            </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+            <NavLink className="text-decoration-none" to="">
+              <div className="cat-item d-flex align-items-center mb-4">
+                <div
+                  className="overflow-hidden"
+                  style={{ width: "100px", height: "100px" }}
+                >
+                  <img className="img-fluid" src="img/" alt="" />
+                </div>
+                <div className="flex-fill pl-3">
+                  <h6>ATTAR</h6>
+                  <small className="text-body">9 Products</small>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+            <NavLink className="text-decoration-none" to="">
+              <div className="cat-item img-zoom d-flex align-items-center mb-4">
+                <div
+                  className="overflow-hidden"
+                  style={{ width: "100px", height: "100px" }}
+                >
+                  <img className="img-fluid" src="img/" alt="" />
+                </div>
+                <div className="flex-fill pl-3">
+                  <h6>PERFUMES</h6>
+                  <small className="text-body">0 Products</small>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+            <NavLink className="text-decoration-none" to="">
+              <div className="cat-item img-zoom d-flex align-items-center mb-4">
+                <div
+                  className="overflow-hidden"
+                  style={{ width: "100px", height: "100px" }}
+                >
+                  <img className="img-fluid" src="img/" alt="" />
+                </div>
+                <div className="flex-fill pl-3">
+                  <h6>BAKHOOR</h6>
+                  <small className="text-body">0 Products</small>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+            <NavLink className="text-decoration-none" to="">
+              <div className="cat-item img-zoom d-flex align-items-center mb-4">
+                <div
+                  className="overflow-hidden"
+                  style={{ width: "100px", height: "100px" }}
+                >
+                  <img className="img-fluid" src="img/" alt="" />
+                </div>
+                <div className="flex-fill pl-3">
+                  <h6>OUD</h6>
+                  <small className="text-body">0 Products</small>
+                </div>
+              </div>
+            </NavLink>
+          </div>
         </div>
-    </div>
-    {/* <!-- Categories End --> */}
+      </div>
+      {/* <!-- Categories End --> */}
 
-    {/* <!-- Products Start -->
+      {/* <!-- Products Start -->
     <div className="container-fluid pt-5 pb-3">
         <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-secondary pr-3">Featured Products</span></h2>
         <div className="row px-xl-5">
@@ -385,39 +457,42 @@ const Home = () =>{
             </div>
         </div>
     </div> */}
-    {/* <!-- Products End --> */}
-    
+      {/* <!-- Products End --> */}
 
-    {/* <!-- Offer Start --> */}
-    <div className="container-fluid ">
-        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-secondary pr-3">Special Offer</span></h2>
+      {/* <!-- Offer Start --> */}
+      <div className="container-fluid ">
+        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4">
+          <span className="bg-secondary pr-3">Special Offer</span>
+        </h2>
         <div className="row px-xl-5">
-           <div className="col-md-6">
-                <div className="product-offer mb-30" style={{height: "200px"}}>
-                    <img className="img-fluid" src="img/tathir.jfif" alt=""/>
-                    <div className="offer-text">
-                        <h6 className="text-white text-uppercase">Save 20%</h6>
-                        <h3 className="text-white mb-3">Special Offer</h3>
-                        <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
-                    </div>
-                </div>
+          <div className="col-md-6">
+            <div className="product-offer mb-30" style={{ height: "200px" }}>
+              <img className="img-fluid" src="img/tathir.jfif" alt="" />
+              <div className="offer-text">
+                <h6 className="text-white text-uppercase">Save 20%</h6>
+                <h3 className="text-white mb-3">Special Offer</h3>
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
             </div>
-            <div className="col-md-6">
-                <div className="product-offer2 mb-30" style={{height: "200px"}}>
-                    <img className="img-fluid" src="img/deer-musk.jfif" alt=""/>
-                    <div className="offer-text">
-                        <h6 className="text-white text-uppercase">Save 20%</h6>
-                        <h3 className="text-white mb-3">Special Offer</h3>
-                        <NavLink to="" className="btn btn-primary">Shop Now</NavLink>
-                    </div>
-                </div>
+          </div>
+          <div className="col-md-6">
+            <div className="product-offer2 mb-30" style={{ height: "200px" }}>
+              <img className="img-fluid" src="img/deer-musk.jfif" alt="" />
+              <div className="offer-text">
+                <h6 className="text-white text-uppercase">Save 20%</h6>
+                <h3 className="text-white mb-3">Special Offer</h3>
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    {/* <!-- Offer End --> */}
-
-    
-        </>
-    );
-}
+      </div>
+      {/* <!-- Offer End --> */}
+    </>
+  );
+};
 export default Home;

@@ -10005,88 +10005,16 @@ h6 {
     width: 100%;
   }
 }
-/* @media only screen and (max-width: 380px) {
-  #header-carousel {
-    width: 384px;
-    margin-left: -14px;
-  }
-  
-  .navbar {
-    width: 108%;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .navbar {
-    width: 113%;
-  }
-}
 @media only screen and (max-width: 768px) {
-  .navbar-toggler {
-    display: none;
-  }
-  
-}
-@media only screen and (max-width: 412px) {
   #header-carousel {
-    width: 410px;
-    margin-left: -14px;
+    width: 100%;
+   
   }
-  
-}
-  @media only screen and (min-width: 412px) and (max-width:380px) {
- 
-  
-} */
-@media only screen and (max-width: 768px) {
   .navbar-toggler {
     display: none;
   }
   .navbar {
     width: 100%;
-  }
-  #header-carousel {
-    width: 388px;
-    margin-left: -14px;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .navbar-toggler {
-    display: none;
-  }
-  .navbar {
-    width: 111%;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .navbar-toggler {
-    display: none;
-  }
-  .navbar {
-    width: 100%;
-  }
-  #header-carousel {
-    width: 379px;
-    margin-left: -14px;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .navbar-toggler {
-    display: none;
-  }
-  .navbar {
-    width: 111%;
-  }
-}
-@media only screen and (min-width: 412px) {
-  .navbar-toggler {
-    display: none;
-  }
-  .navbar {
-    width: 100%;
-  }
-  #header-carousel {
-    width: 412px;
-    margin-left: -14px;
   }
 }
 .filter {
@@ -10262,7 +10190,6 @@ h6 {
 
 .wrapper {
   max-width: 600px;
-  padding: 0 20px;
   margin-top: -45px;
 }
 .wrapper .parent-tab,
