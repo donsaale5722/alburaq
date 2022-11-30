@@ -10007,7 +10007,7 @@ h6 {
 }
 @media (max-width: 375px) {
   .product-offer {
-    width: 49%;
+    width: 10%;
   }
   .product-offer2 {
     width: 49%;
@@ -10024,7 +10024,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 194px!important;
+    margin-left: 194px;
     margin-top: -230px;
   }
   .filter {
@@ -10037,7 +10037,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 184px!important;
+    margin-left: 184px;
     margin-top: -230px;
   }
   .filter {
@@ -10050,7 +10050,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 184px!important;
+    margin-left: 184px;
     margin-top: -230px;
   }
   .filter {
@@ -10299,9 +10299,9 @@ h6 {
   height: 30px;
   width: 30px;
   font-size: 15px;
-  color: #007bff;
+  color: #FAC833;
   display: block;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 50%;
   text-shadow: 0 -1px 1px #0056b3;
 }
