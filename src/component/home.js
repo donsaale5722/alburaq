@@ -10,7 +10,7 @@ const Home = () => {
 
           <div
             id="header-carousel"
-            className="carousel slide carousel-fade mb-30 mb-lg-0"
+            className="carousel slide carousel-fade  mb-lg-0"
             data-ride="carousel"
             height="100px"
           >
@@ -105,8 +105,9 @@ const Home = () => {
         </div>
       </div>
       <div className="col-lg-12">
-        <h2 className="section-title position-relative text-uppercase mb-4">
-          <span className="bg-secondary pr-3">Trending Collection</span>
+        <h2 className=" position-relative text-uppercase mb-1">
+          <span className="bg-secondary pr-3" style={{marginLeft:"32%"}}>Trending  </span><br></br>
+          <span  style={{marginLeft:"29%"}}>Collection</span>
         </h2>
         <div className="product-offer mb-30" style={{ height: "200px" }}>
           <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
@@ -163,8 +164,8 @@ const Home = () => {
 
       {/* <!-- Categories Start --> */}
       <div className="container-fluid">
-        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4">
-          <span className="bg-secondary pr-3">Categories</span>
+        <h2 className=" position-relative text-uppercase mx-xl-5 mb-1">
+          <span className="bg-secondary pr-3" style={{marginLeft:"29%"}}>Categories</span>
         </h2>
         <div className="row px-xl-5 pb-3">
           <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
@@ -461,8 +462,8 @@ const Home = () => {
 
       {/* <!-- Offer Start --> */}
       <div className="container-fluid ">
-        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4">
-          <span className="bg-secondary pr-3">Special Offer</span>
+        <h2 className="position-relative text-uppercase mx-xl-5 mb-4">
+          <span className="bg-secondary pr-3" style={{marginLeft:"24%"}}>Special Offer</span>
         </h2>
         <div className="row px-xl-5">
           <div className="col-md-6">

@@ -10080,6 +10080,10 @@ h6 {
   }
   .navbar {
     width: 100%;
+    
+  }
+  .navbar1{
+    background-color: #F5F5F5!important;
   }
 }
 .filter {
@@ -10362,14 +10366,14 @@ input[type="checkbox"] {
   }
   .wrapper1 .menu-btn {
     position: absolute;
-    left: -9px;
+    left: -15px;
     top: -5px;
     /* background: #4a4a4a; */
-    color: #fff;
+    color: #4a4a4a;
     height: 45px;
     width: 45px;
     z-index: 9999;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     border-radius: 5px;
     cursor: pointer;
     display: flex;

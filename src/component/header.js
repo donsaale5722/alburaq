@@ -7,10 +7,10 @@ const Header = () => {
       {/* 
 <!-- Topbar Start --> */}
       <div className="container-fluid">
-        <div className="row bg-secondary py-1 px-xl-5">
+        <div className="row mobileno py-1 px-xl-5" style={{backgroundColor:"#debe75"}}>
           <h5
             className="font-weight-semi-bold"
-            style={{ marginLeft: "130px", marginTop: "5px" }}
+            style={{ marginLeft: "86px", marginTop: "5px" }}
           >
             <i className="fa fa-phone"></i>&nbsp;&nbsp;+91 9726468826
           </h5>
@@ -52,7 +52,7 @@ const Header = () => {
       {/* <!-- Topbar End --> */}
 
       {/* <!-- Navbar Start --> */}
-      <div className="container-fluid bg-dark mb-30">
+      <div className="container-fluid navbar1 bg-dark mb3">
         <div className="row px-xl-5">
           <div className="col-lg-3 d-none d-lg-block">
             <NavLink
@@ -124,7 +124,7 @@ const Header = () => {
             </nav>
           </div>
           <div className="col-lg-9 col-sm-12">
-            <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+            <nav className="navbar navbar-expand-lg navbar py-3 py-lg-0 px-0">
               {/* <!--/.Navbar--> */}
               {/* <div className="header"></div> */}
               {/* <i class="fas fa-plus" data-toggle="modal" data-target="#myModal"></i> */}
@@ -137,41 +137,40 @@ const Header = () => {
                 <nav id="sidebar">
                   <div className="title">Side Menu</div>
                   <ul className="list-items">
-                  
                     <li>
                       <NavLink to="/">
-                      <i class="fa fa-angle-right"></i>Home
+                        <i class="fa fa-angle-right"></i>Home
                       </NavLink>
                     </li>
                     <li>
                       <NavLink to="#">
-                      <i class="fa fa-angle-right"></i>Luxury Colection
+                        <i class="fa fa-angle-right"></i>Luxury Colection
                       </NavLink>
                     </li>
                     <li>
                       <NavLink to="#">
-                      <i class="fa fa-angle-right"></i>Women
+                        <i class="fa fa-angle-right"></i>Women
                       </NavLink>
                     </li>
                     <li>
                       <NavLink to="#">
-                      <i class="fa fa-angle-right"></i> Men
+                        <i class="fa fa-angle-right"></i> Men
                       </NavLink>
                     </li>
                     <li>
                       <NavLink to="#">
-                      <i class="fa fa-angle-right"></i> UniSex
+                        <i class="fa fa-angle-right"></i> UniSex
                       </NavLink>
                     </li>
                     <li>
                       <NavLink to="/product">
-                      <i class="fa fa-angle-right"></i>All Product
+                        <i class="fa fa-angle-right"></i>All Product
                       </NavLink>
                     </li>
-                    
+
                     <li>
                       <NavLink to="/contact">
-                      <i class="fa fa-angle-right"></i>Contact us
+                        <i class="fa fa-angle-right"></i>Contact us
                       </NavLink>
                     </li>
                     {/* <div className="icons">
@@ -195,9 +194,9 @@ const Header = () => {
               <div
                 style={{
                   width: "100px",
-                  marginLeft: "60px",
-                  fontSize: "27px",
-                  color: "#fff9",
+                  marginLeft: "36px",
+                  fontSize: "25px",
+                  color:"#4a4a4a",
                 }}
               >
                 <i
@@ -210,44 +209,50 @@ const Header = () => {
               <NavLink
                 to="/"
                 className="mobile text-decoration-none d-block d-lg-none"
-                style={{ marginLeft: "30%", marginTop: "-46px" }}
+                style={{ marginLeft: "22%", marginTop: "-41px" }}
               >
-                <span className="h1 text-uppercase px-1" style={{color:"#debe75",fontFamily:"bodoniflf"}}>
+                <span
+                  className="h1 text-uppercase px-1"
+                  style={{ color: "#debe75", fontFamily: "bodoniflf ", fontSize:"35px"}}
+                >
                   Al
                 </span>
-                <span className="h1 text-uppercase px-1 ml-n1" style={{color:"#debe75",fontFamily:"bodoniflf"}}
+                <span
+                  className="h1 text-uppercase px-1 ml-n1"
+                  style={{ color: "#debe75", fontFamily: "bodoniflf" ,fontSize:"35px"}}
                 >
                   BuraQ
                 </span>
               </NavLink>
               <NavLink to="/userlogin">
-              <div
-                className=""
-                style={{
-                  marginTop: "-42px",
-                  marginRight: "50px",
-                  fontSize: "25px",
-                  color: "#fff9",
-                }}
-              >
-                
-                <i class="fa fa-user"></i>
-                
-              </div>
+                <div
+                  className=""
+                  style={{
+                    marginTop: "-37px",
+                    marginRight: "36px",
+                    fontSize: "23px",
+                    color: "#4a4a4a",
+                  }}
+                >
+                  <i class="fa fa-user"></i>
+                </div>
               </NavLink>
               <div
                 className=""
                 style={{
                   marginTop: "-42px",
-                  marginLeft: "92%",
-                  fontSize: "25px",
-                  color: "#fff9",
+                  marginLeft: "93%",
+                  fontSize: "23px",
+                  color: "#4a4a4a",
                 }}
               >
                 <NavLink to="/cart">
-                <i className="fas fa-shopping-cart" style={{
-                  color: "#fff9",
-                }}></i>
+                  <i
+                    className="fas fa-shopping-cart"
+                    style={{
+                      color: "#4a4a4a",
+                    }}
+                  ></i>
                 </NavLink>
               </div>
               {/* <NavLink
