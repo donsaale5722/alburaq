@@ -27,7 +27,8 @@ const Footer = () => {
                 <div class="parent-tab">
                   <input type="radio" name="tab" id="tab-1" checked />
                   <label for="tab-1">
-                    <span>Connect with us</span>
+                    <span data-toggle="collapse"
+                        data-target="#demo1">Connect with us</span>
                     <div class="icon">
                       <i
                         class="fa fa-angle-down"
@@ -55,7 +56,8 @@ const Footer = () => {
                 <div class="parent-tab">
                   <input type="radio" name="tab" id="tab-2" />
                   <label for="tab-2">
-                    <span>Follow Us</span>
+                    <span data-toggle="collapse"
+                        data-target="#demo2">Follow Us</span>
                     <div class="icon">
                       <i
                         class="fa fa-angle-down"
@@ -95,7 +97,8 @@ const Footer = () => {
                 <div class="parent-tab">
                   <input type="radio" name="tab" id="tab-3" />
                   <label for="tab-3">
-                    <span>Our Service</span>
+                    <span data-toggle="collapse"
+                        data-target="#demo3">Our Service</span>
                     <div class="icon">
                       <i
                         class="fa fa-angle-down"

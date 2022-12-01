@@ -191,7 +191,7 @@ const Header = () => {
                 </nav>
               </div>
 
-              <div
+              <div className="searchbar"
                 style={{
                   width: "100px",
                   marginLeft: "36px",
@@ -212,13 +212,13 @@ const Header = () => {
                 style={{ marginLeft: "22%", marginTop: "-41px" }}
               >
                 <span
-                  className="h1 text-uppercase px-1"
+                  className="h1 al text-uppercase px-1"
                   style={{ color: "#debe75", fontFamily: "bodoniflf ", fontSize:"35px"}}
                 >
                   Al
                 </span>
                 <span
-                  className="h1 text-uppercase px-1 ml-n1"
+                  className="h1 burq text-uppercase px-1 ml-n1"
                   style={{ color: "#debe75", fontFamily: "bodoniflf" ,fontSize:"35px"}}
                 >
                   BuraQ
@@ -226,7 +226,7 @@ const Header = () => {
               </NavLink>
               <NavLink to="/userlogin">
                 <div
-                  className=""
+                  className="userlogin"
                   style={{
                     marginTop: "-37px",
                     marginRight: "36px",
@@ -238,7 +238,7 @@ const Header = () => {
                 </div>
               </NavLink>
               <div
-                className=""
+                className="shopingcart"
                 style={{
                   marginTop: "-42px",
                   marginLeft: "93%",

@@ -107,13 +107,13 @@ const Home = () => {
       <div className="col-lg-12">
         <h2 className=" position-relative text-uppercase mb-1">
           <span
-            className="bg-secondary pr-3"
-            style={{ marginLeft: "32%", color: "#debe75" }}
+            className="bg-secondary trending pr-3"
+            style={{ marginLeft: "32%", color: "#debe75",fontFamily:"bodoniflf" }}
           >
             Trending{" "}
           </span>
           <br></br>
-          <span style={{ marginLeft: "29%", color: "#debe75" }}>
+          <span className="collect" style={{ marginLeft: "29%", color: "#debe75",fontFamily:"bodoniflf" }}>
             Collection
           </span>
         </h2>
@@ -173,16 +173,16 @@ const Home = () => {
       {/* <!-- Categories Start --> */}
       <div className="container-fluid">
         <h2 className=" position-relative text-uppercase mx-xl-5 mb-1">
-          <span
-            className="bg-secondary pr-3"
-            style={{ marginLeft: "29%", color: "#debe75" }}
+          <span 
+            className="bg-secondary fragrance pr-3"
+            style={{ marginLeft: "29%", color: "#debe75",fontFamily:"bodoniflf" }}
           >
             Fragrance
           </span>
           <br></br>
           <span
-            className="bg-secondary pr-3"
-            style={{ marginLeft: "29%", color: "#debe75" }}
+            className="bg-secondary categories pr-3"
+            style={{ marginLeft: "29%", color: "#debe75",fontFamily:"bodoniflf" }}
           >
             Categories
           </span>
@@ -484,8 +484,8 @@ const Home = () => {
       <div className="container-fluid ">
         <h2 className="position-relative text-uppercase mx-xl-5 mb-4">
           <span
-            className="bg-secondary pr-3"
-            style={{ marginLeft: "24%", color: "#debe75" }}
+            className="bg-secondary special pr-3"
+            style={{ marginLeft: "24%", color: "#debe75",fontFamily:"bodoniflf"}}
           >
             Special Offer
           </span>
