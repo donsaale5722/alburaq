@@ -104,7 +104,7 @@ const Home = () => {
           {/* </div> */}
         </div>
       </div>
-      <div className="col-lg-12">
+      <div className="trend col-lg-12">
         <h2 className=" position-relative text-uppercase mb-1">
           <span
             className="bg-secondary trending pr-3"

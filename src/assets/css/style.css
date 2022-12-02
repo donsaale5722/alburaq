@@ -768,7 +768,10 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
-
+.trend{
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .col {
   flex-basis: 0;
   flex-grow: 1;
@@ -9994,7 +9997,7 @@ h6 {
 }
 @media (max-width: 480px) {
   .product-offer {
-    width: 49%;
+    width: 51%;
   }
   .product-offer2 {
     width: 49%;
@@ -10005,13 +10008,13 @@ h6 {
     width: 100%;
   }
 }
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .product-offer {
     width: 10%;
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 175px !important;
+    margin-left: 185px !important;
     margin-top: -230px;
   }
   .filter {
@@ -10051,7 +10054,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 194px;
+    margin-left: 205px;
     margin-top: -230px;
   }
   .filter {
@@ -10073,13 +10076,13 @@ h6 {
     margin-left: 107px!important;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 390px) and (min-width: 375px) {
   .product-offer {
     width: 49%;
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 184px;
+    margin-left: 193px!important;
     margin-top: -230px;
   }
   .filter {
@@ -10119,7 +10122,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 184px;
+    margin-left: 194px!important;
     margin-top: -230px;
   }
   .filter {
@@ -10153,7 +10156,20 @@ h6 {
     margin-left: 77px!important;
   }
 }
-@media only screen and (max-width: 400px) and (min-width:393px) {
+@media (max-width: 400px) and (max-width: 375px){
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 187px!important;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+@media only screen and(max-width: 400px){
   .product-offer {
     width: 49%;
   }
@@ -10172,7 +10188,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 167px !important;
+    margin-left: 176px !important;
     margin-top: -230px;
   }
   .filter {
