@@ -768,10 +768,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
-.trend{
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
 .col {
   flex-basis: 0;
   flex-grow: 1;
@@ -9997,11 +9994,11 @@ h6 {
 }
 @media (max-width: 480px) {
   .product-offer {
-    width: 51%;
+    width: 49%;
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 195px!important;
+    margin-left: 165px;
     margin-top: -230px;
   }
   .filter {
@@ -10014,7 +10011,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 185px !important;
+    margin-left: 175px !important;
     margin-top: -230px;
   }
   .filter {
@@ -10054,7 +10051,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 205px!important;
+    margin-left: 194px;
     margin-top: -230px;
   }
   .filter {
@@ -10076,41 +10073,13 @@ h6 {
     margin-left: 107px!important;
   }
 }
-@media (max-width: 412px) {
+@media (max-width: 390px) {
   .product-offer {
     width: 49%;
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 205px!important;
-    margin-top: -230px;
-  }
-  .filter {
-    width: 100%;
-  }
-  .searchbar{
-    margin-left: 48px!important;
-  }
-  .userlogin{
-    margin-right: 54px!important;
-  }
-  .shopingcart{
-    margin-left: 10px;
-  }
-  .al{
-    margin-left: 15px;
-  }
-  .mobileno h5{
-    margin-left: 107px!important;
-  }
-}
-@media (min-width: 390px) and (max-width: 393px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 193px!important;
+    margin-left: 184px;
     margin-top: -230px;
   }
   .filter {
@@ -10150,7 +10119,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 194px!important;
+    margin-left: 184px;
     margin-top: -230px;
   }
   .filter {
@@ -10184,7 +10153,7 @@ h6 {
     margin-left: 77px!important;
   }
 }
-@media (max-width: 375px){
+@media only screen and (max-width: 400px) and (min-width:393px) {
   .product-offer {
     width: 49%;
   }
@@ -10197,26 +10166,13 @@ h6 {
     width: 100%;
   }
 }
-@media (max-width: 401px) and (min-width: 394px){
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 199px!important;
-    margin-top: -230px;
-  }
-  .filter {
-    width: 100%;
-  }
-}
 @media (max-width: 360px) {
   .product-offer {
     width: 49%;
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 176px !important;
+    margin-left: 167px !important;
     margin-top: -230px;
   }
   .filter {
@@ -10253,7 +10209,7 @@ h6 {
     margin-left: 67px!important;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #header-carousel {
     width: 100%;
   }
@@ -10495,7 +10451,6 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
 }
 .parent-tab input:checked ~ label .icon i:before,
 .child-tab input:checked ~ label .icon i:before {
@@ -10569,7 +10524,7 @@ input[type="checkbox"] {
   }
   .wrapper1 .menu-btn i {
     position: absolute;
-    
+    transform: ;
     font-size: 23px;
     transition: all 0.3s ease;
   }
