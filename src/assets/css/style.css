@@ -10001,14 +10001,14 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 165px;
+    margin-left: 195px!important;
     margin-top: -230px;
   }
   .filter {
     width: 100%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .product-offer {
     width: 10%;
   }
@@ -10054,7 +10054,7 @@ h6 {
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 205px;
+    margin-left: 205px!important;
     margin-top: -230px;
   }
   .filter {
@@ -10076,7 +10076,35 @@ h6 {
     margin-left: 107px!important;
   }
 }
-@media (max-width: 390px) and (min-width: 375px) {
+@media (max-width: 412px) {
+  .product-offer {
+    width: 49%;
+  }
+  .product-offer2 {
+    width: 49%;
+    margin-left: 205px!important;
+    margin-top: -230px;
+  }
+  .filter {
+    width: 100%;
+  }
+  .searchbar{
+    margin-left: 48px!important;
+  }
+  .userlogin{
+    margin-right: 54px!important;
+  }
+  .shopingcart{
+    margin-left: 10px;
+  }
+  .al{
+    margin-left: 15px;
+  }
+  .mobileno h5{
+    margin-left: 107px!important;
+  }
+}
+@media (min-width: 390px) and (max-width: 393px) {
   .product-offer {
     width: 49%;
   }
@@ -10116,7 +10144,7 @@ h6 {
     margin-left: 77px!important;
   }
 }
-@media (max-width: 393px) {
+/* @media (max-width: 393px) {
   .product-offer {
     width: 49%;
   }
@@ -10155,8 +10183,8 @@ h6 {
   .special{
     margin-left: 77px!important;
   }
-}
-@media (max-width: 400px) and (max-width: 375px){
+} */
+@media (max-width: 375px){
   .product-offer {
     width: 49%;
   }
@@ -10169,13 +10197,13 @@ h6 {
     width: 100%;
   }
 }
-@media only screen and(max-width: 400px){
+@media (max-width: 401px) and (min-width: 394px){
   .product-offer {
     width: 49%;
   }
   .product-offer2 {
     width: 49%;
-    margin-left: 187px!important;
+    margin-left: 199px!important;
     margin-top: -230px;
   }
   .filter {
@@ -10225,7 +10253,7 @@ h6 {
     margin-left: 67px!important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   #header-carousel {
     width: 100%;
   }
@@ -10467,6 +10495,7 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 .parent-tab input:checked ~ label .icon i:before,
 .child-tab input:checked ~ label .icon i:before {
@@ -10500,7 +10529,7 @@ input[type="checkbox"] {
   display: none;
 }
 .parent-tab {
-  width: 340px;
+  width: 400px;
 }
 
 /* sidebar */
@@ -10540,7 +10569,7 @@ input[type="checkbox"] {
   }
   .wrapper1 .menu-btn i {
     position: absolute;
-    transform: ;
+    
     font-size: 23px;
     transition: all 0.3s ease;
   }
