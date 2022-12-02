@@ -10144,7 +10144,7 @@ h6 {
     margin-left: 77px!important;
   }
 }
-/* @media (max-width: 393px) {
+@media (max-width: 393px) {
   .product-offer {
     width: 49%;
   }
@@ -10183,7 +10183,7 @@ h6 {
   .special{
     margin-left: 77px!important;
   }
-} */
+}
 @media (max-width: 375px){
   .product-offer {
     width: 49%;
