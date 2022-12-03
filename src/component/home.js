@@ -104,25 +104,36 @@ const Home = () => {
           {/* </div> */}
         </div>
       </div>
-      <div className="trend col-lg-12">
+      {/* <div className="trend col-lg-12">
         <h2 className=" position-relative text-uppercase mb-1">
           <span
             className="bg-secondary trending pr-3"
-            style={{ marginLeft: "32%", color: "#debe75",fontFamily:"bodoniflf" }}
+            style={{
+              marginLeft: "32%",
+              color: "#debe75",
+              fontFamily: "bodoniflf",
+            }}
           >
             Trending{" "}
           </span>
           <br></br>
-          <span className="collect" style={{ marginLeft: "29%", color: "#debe75",fontFamily:"bodoniflf" }}>
+          <span
+            className="collect"
+            style={{
+              marginLeft: "29%",
+              color: "#debe75",
+              fontFamily: "bodoniflf",
+            }}
+          >
             Collection
           </span>
         </h2>
         <div className="product-offer mb-30" style={{ height: "200px" }}>
           <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
-          <div className="offer-text">
-            {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+          <div className="offer-text"> */}
+      {/* <h6 className="text-white text-uppercase">Save 20%</h6>
                         <h3 className="text-white mb-3">Special Offer</h3> */}
-            <NavLink to="" className="btn btn-primary">
+      {/* <NavLink to="" className="btn btn-primary">
               Shop Now
             </NavLink>
           </div>
@@ -132,13 +143,52 @@ const Home = () => {
           <div className="offer-text">
             {/* <h6 className="text-white text-uppercase">Save 20%</h6>
                         <h3 className="text-white mb-3">Special Offer</h3> */}
-            <NavLink to="" className="btn btn-primary">
+      {/*<NavLink to="" className="btn btn-primary">
               Shop Now
             </NavLink>
           </div>
         </div>
+      </div> */}
+      <div class="container mobilesize">
+        <div class="row">
+          <div class="col-6" style={{paddingLeft:"5px",paddingRight:"5px" }}>
+            <div
+              className="product-offer1 mb-30"
+              style={{
+                height: "200px",
+                
+              }}
+            >
+              <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
+            </div>
+          </div>
+          <div class="col-6" style={{paddingLeft:"5px",paddingRight:"5px" }}>
+            <div
+              className="product-offer1 mb-30"
+              style={{
+                height: "200px",
+                
+              }}
+            >
+              <img className="img-fluid" src="img/al-barid.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
       {/* <!-- Featured Start --> */}
       {/* <div className="container-fluid pt-5">
         <div className="row px-xl-5 pb-3">
@@ -173,16 +223,24 @@ const Home = () => {
       {/* <!-- Categories Start --> */}
       <div className="container-fluid">
         <h2 className=" position-relative text-uppercase mx-xl-5 mb-1">
-          <span 
+          <span
             className="bg-secondary fragrance pr-3"
-            style={{ marginLeft: "29%", color: "#debe75",fontFamily:"bodoniflf" }}
+            style={{
+              marginLeft: "29%",
+              color: "#debe75",
+              fontFamily: "bodoniflf",
+            }}
           >
             Fragrance
           </span>
           <br></br>
           <span
             className="bg-secondary categories pr-3"
-            style={{ marginLeft: "29%", color: "#debe75",fontFamily:"bodoniflf" }}
+            style={{
+              marginLeft: "29%",
+              color: "#debe75",
+              fontFamily: "bodoniflf",
+            }}
           >
             Categories
           </span>
@@ -481,11 +539,15 @@ const Home = () => {
       {/* <!-- Products End --> */}
 
       {/* <!-- Offer Start --> */}
-      <div className="container-fluid ">
+      {/* <div className="container-fluid ">
         <h2 className="position-relative text-uppercase mx-xl-5 mb-4">
           <span
             className="bg-secondary special pr-3"
-            style={{ marginLeft: "24%", color: "#debe75",fontFamily:"bodoniflf"}}
+            style={{
+              marginLeft: "24%",
+              color: "#debe75",
+              fontFamily: "bodoniflf",
+            }}
           >
             Special Offer
           </span>
@@ -509,6 +571,40 @@ const Home = () => {
               <div className="offer-text">
                 <h6 className="text-white text-uppercase">Save 20%</h6>
                 <h3 className="text-white mb-3">Special Offer</h3>
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div class="container mobilesize">
+        <div class="row">
+          <div
+            class="col-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px" }}
+          >
+            <div className="product-offer1 mb-30" style={{ height: "200px" }}>
+              <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px" }}
+          >
+            <div className="product-offer1 mb-30" style={{ height: "200px" }}>
+              <img className="img-fluid" src="img/al-barid.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
                 <NavLink to="" className="btn btn-primary">
                   Shop Now
                 </NavLink>

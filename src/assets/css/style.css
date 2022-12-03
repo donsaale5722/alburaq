@@ -9983,37 +9983,22 @@ h6 {
 .product-offer {
   position: relative;
   overflow: hidden;
-  width: 700px;
+  width: 180px;
 }
-.product-offer2 {
+.product-offer1 {
   position: relative;
   overflow: hidden;
-  width: 700px;
-  margin-left: 710px;
-  margin-top: -230px;
+  width: 100%;
 }
+
 @media (max-width: 480px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 165px;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
 }
 @media (max-width: 375px) {
-  .product-offer {
-    width: 10%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 175px !important;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
@@ -10046,14 +10031,7 @@ h6 {
   }
 }
 @media (max-width: 414px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 194px;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
@@ -10074,14 +10052,7 @@ h6 {
   }
 }
 @media (max-width: 390px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 184px;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
@@ -10114,14 +10085,7 @@ h6 {
   }
 }
 @media (max-width: 393px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 184px;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
@@ -10154,27 +10118,13 @@ h6 {
   }
 }
 @media only screen and (max-width: 400px) and (min-width:393px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 187px!important;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
 }
 @media (max-width: 360px) {
-  .product-offer {
-    width: 49%;
-  }
-  .product-offer2 {
-    width: 49%;
-    margin-left: 167px !important;
-    margin-top: -230px;
-  }
+  
   .filter {
     width: 100%;
   }
@@ -10240,6 +10190,17 @@ h6 {
 .product-offer:hover img {
   transform: scale(1.2) rotate(5deg);
 }
+.product-offer1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.product-offer1:hover img {
+  transform: scale(1.2) rotate(5deg);
+}
 .product-offer2 img {
   position: absolute;
   width: 100%;
@@ -10253,6 +10214,19 @@ h6 {
 }
 
 .product-offer .offer-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(61, 70, 77, 0.5);
+  z-index: 1;
+}
+.product-offer1 .offer-text {
   position: absolute;
   top: 0;
   left: 0;
