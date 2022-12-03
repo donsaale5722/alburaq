@@ -282,7 +282,7 @@ const Header = () => {
                 className="collapse navbar-collapse justify-content-between"
                 id="navbarCollapse"
               >
-                <div className="navbar-nav mr-auto py-0">
+                <div className="navbar-nav mr-auto py-2">
                   <NavLink to="/" className="nav-item nav-link active">
                     Home
                   </NavLink>

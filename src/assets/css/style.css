@@ -10051,6 +10051,27 @@ h6 {
     margin-left: 107px!important;
   }
 }
+@media (max-width: 992px) {
+  
+  .filter {
+    width: 100%;
+  }
+  .searchbar{
+    margin-left: 48px!important;
+  }
+  .userlogin{
+    margin-right: 54px!important;
+  }
+  .shopingcart{
+    margin-left: 10px;
+  }
+  .al{
+    margin-left: 15px;
+  }
+  .mobileno h5{
+    margin-left: 107px!important;
+  }
+}
 @media (max-width: 390px) {
   
   .filter {
@@ -10171,6 +10192,19 @@ h6 {
   }
   .navbar1 {
     background-color: #f5f5f5 !important;
+  }
+  
+  
+}
+@media only screen and (min-width: 768px) { 
+  .searchbar{
+    display: none;
+  }
+  .userlogin{
+    display: none;
+  }
+  .shopingcart{
+    display: none;
   }
 }
 .filter {
