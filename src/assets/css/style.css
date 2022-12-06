@@ -93,7 +93,9 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-
+h2{
+  text-align: center;
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -10014,13 +10016,13 @@ h6 {
   .mobileno h5{
     margin-left: 95px!important;
   }
-  .collect{
+  /* .collect{
     margin-left: 92px!important;
-  }
-  .trending{
+  } */
+  /* .trending{
     margin-left: 108px!important;
-  }
-  .categories{
+  } */
+  /* .categories{
     margin-left: 92px!important;
   }
   .fragrance{
@@ -10028,7 +10030,7 @@ h6 {
   }
   .special{
     margin-left: 77px!important;
-  }
+  } */
 }
 @media (max-width: 414px) {
   
@@ -10051,6 +10053,7 @@ h6 {
     margin-left: 107px!important;
   }
 }
+
 @media (max-width: 992px) {
   
   .filter {
@@ -10089,13 +10092,13 @@ h6 {
   .al{
     margin-left: 4px;
   }
-  .collect{
+  /* .collect{
     margin-left: 92px!important;
-  }
-  .trending{
+  } */
+  /* .trending{
     margin-left: 108px!important;
-  }
-  .categories{
+  } */
+  /* .categories{
     margin-left: 92px!important;
   }
   .fragrance{
@@ -10103,7 +10106,7 @@ h6 {
   }
   .special{
     margin-left: 77px!important;
-  }
+  } */
 }
 @media (max-width: 393px) {
   
@@ -10122,13 +10125,13 @@ h6 {
   .al{
     margin-left: 8px;
   }
-  .collect{
+  /* .collect{
     margin-left: 92px!important;
-  }
-  .trending{
+  } */
+  /* .trending{
     margin-left: 108px!important;
-  }
-  .categories{
+  } */
+  /* .categories{
     margin-left: 92px!important;
   }
   .fragrance{
@@ -10136,7 +10139,7 @@ h6 {
   }
   .special{
     margin-left: 77px!important;
-  }
+  } */
 }
 @media only screen and (max-width: 400px) and (min-width:393px) {
   
@@ -10164,13 +10167,13 @@ h6 {
   .mobileno h5{
     margin-left: 87px!important;
   }
-  .collect{
+  /* .collect{
     margin-left: 80px!important;
-  }
-  .trending{
+  } */
+  /* .trending{
     margin-left: 97px!important;
-  }
-  .categories{
+  } */
+  /* .categories{
     margin-left: 85px!important;
   }
   .fragrance{
@@ -10178,7 +10181,7 @@ h6 {
   }
   .special{
     margin-left: 67px!important;
-  }
+  } */
 }
 @media only screen and (max-width: 768px) {
   #header-carousel {
@@ -10193,8 +10196,16 @@ h6 {
   .navbar1 {
     background-color: #f5f5f5 !important;
   }
+  /* .mobilesize{
+    padding-left: 5px;
+    padding-right: 5px;
+  } */
   
-  
+}
+@media (min-width:768px){
+  #header-carousel {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) { 
   .searchbar{
