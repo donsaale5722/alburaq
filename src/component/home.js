@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="container-fluid mb-3">
+      <div className="container-fluid mb-1">
         <div className="row ">
           {/* <div className="col-lg-12" > */}
 
@@ -14,7 +14,7 @@ const Home = () => {
             data-ride="carousel"
             height="244px"
           >
-            <ol className="carousel-indicators">
+            {/* <ol className="carousel-indicators">
               <li
                 data-target="#header-carousel"
                 data-slide-to="0"
@@ -22,8 +22,8 @@ const Home = () => {
               ></li>
               <li data-target="#header-carousel" data-slide-to="1"></li>
               <li data-target="#header-carousel" data-slide-to="2"></li>
-            </ol>
-            <div className="carousel-inner" style={{ height: "273px" }}>
+            </ol> */}
+            <div className="carousel-inner" style={{ height: "226px" }}>
               <div
                 className="carousel-item position-relative active"
                 style={{ height: "430px" }}
@@ -174,9 +174,9 @@ const Home = () => {
           </span>
         </h2>
         <div class="row">
-          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px"}}>
+          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px", height:"200px"}}>
             <div
-              className="product-offer1 mb-30"
+              className="product-offer1 mb-20"
               style={{
                 height: "200px",
               }}
@@ -191,7 +191,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px"}}>
+          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px", height:"200px"}}>
             <div
               className="product-offer1 mb-30"
               style={{
@@ -266,7 +266,7 @@ const Home = () => {
             Categories
           </span>
         </h2>
-        <div className="row px-xl-5 pb-3">
+        <div className="row px-xl-5 pb-1">
           <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
             <NavLink className="text-decoration-none" to="">
               <div className="cat-item d-flex align-items-center mb-4">

@@ -123,8 +123,8 @@ const Header = () => {
               </div>
             </nav>
           </div>
-          <div className="col-lg-9 col-sm-12">
-            <nav className="navbar navbar-expand-lg navbar py-3 py-lg-0 px-0">
+          <div className="col-lg-9 col-sm-12 d-lg-none">
+            <nav className="navbar navbar-expand-lg navbar  py-lg-0 px-0">
               {/* <!--/.Navbar--> */}
               {/* <div className="header"></div> */}
               {/* <i class="fas fa-plus" data-toggle="modal" data-target="#myModal"></i> */}
