@@ -123,7 +123,7 @@ const Header = () => {
               </div>
             </nav>
           </div>
-          <div className="col-lg-9 col-sm-12 d-lg-none">
+          <div className="col-lg-9 col-sm-12 ">
             <nav className="navbar navbar-expand-lg navbar  py-lg-0 px-0">
               {/* <!--/.Navbar--> */}
               {/* <div className="header"></div> */}

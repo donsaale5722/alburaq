@@ -23,44 +23,50 @@ const Home = () => {
               <li data-target="#header-carousel" data-slide-to="1"></li>
               <li data-target="#header-carousel" data-slide-to="2"></li>
             </ol> */}
-            <div className="carousel-inner" style={{ height: "226px" }}>
+            <div className="carousel-inner" style={{ height: "244px" }}>
               <div
                 className="carousel-item position-relative active"
-                style={{ height: "430px" }}
+                style={{ height: "244px" }}
               >
                 <img
                   className="position-absolute w-100 h-100"
-                  src="img/oud-mikhlaat.jfif"
+                  src="./img/banner.jpg"
                   alt="description"
-                  style={{ objectFit: "cover" }}
+                  
                 />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                  <div className="p-3" style={{ maxWidth: "700px", marginTop:"-200px" }}>
-                    <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
+                  <div
+                    className="p-3"
+                    style={{ maxWidth: "700px", marginTop: "-200px" }}
+                  >
+                    {/* <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
                       Men's Perfumes
-                    </h1>
+                    </h1> */}
                     {/* <p className="mx-md-5 px-5 animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p> */}
-                    <NavLink
+                    {/* <NavLink
                       className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
                       to="#"
                     >
                       Shop Now
-                    </NavLink>
+                    </NavLink> */}
                   </div>
                 </div>
               </div>
               <div
                 className="carousel-item position-relative"
-                style={{ height: "430px" }}
+                style={{ height: "244px" }}
               >
                 <img
                   className="position-absolute w-100 h-100"
-                  src="../assets/img/carousel-2.jpg"
+                  src="./img/"
                   alt="description"
-                  style={{ objectFit: "cover" }}
+                  
                 />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                  <div className="p-3" style={{ maxWidth: "700px", marginTop:"-200px"  }}>
+                  <div
+                    className="p-3"
+                    style={{ maxWidth: "700px", marginTop: "-200px" }}
+                  >
                     <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
                       Women's Perfumes
                     </h1>
@@ -76,16 +82,19 @@ const Home = () => {
               </div>
               <div
                 className="carousel-item position-relative"
-                style={{ height: "430px" }}
+                style={{ height: "244px" }}
               >
                 <img
                   className="position-absolute w-100 h-100"
                   src="./img/carousel-3.jpg"
                   alt="description"
-                  style={{ objectFit: "cover" }}
+                  
                 />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                  <div className="p-3" style={{ maxWidth: "700px", marginTop:"-200px"  }}>
+                  <div
+                    className="p-3"
+                    style={{ maxWidth: "700px", marginTop: "-200px" }}
+                  >
                     <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
                       Kids Fashion
                     </h1>
@@ -149,12 +158,11 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-      <div class="container-fluid mobilesize">
+      <div class="container-fluid mobilesize mt-3">
         <h2 className=" position-relative text-uppercase text-sm-center mb-1">
           <span
             className="bg-secondary trending pr-3"
             style={{
-              
               color: "#debe75",
               fontFamily: "bodoniflf",
             }}
@@ -165,7 +173,6 @@ const Home = () => {
           <span
             className="collect"
             style={{
-              
               color: "#debe75",
               fontFamily: "bodoniflf",
             }}
@@ -174,7 +181,10 @@ const Home = () => {
           </span>
         </h2>
         <div class="row">
-          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px", height:"200px"}}>
+          <div
+            class="col-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
+          >
             <div
               className="product-offer1 mb-20"
               style={{
@@ -185,13 +195,18 @@ const Home = () => {
               <div className="offer-text">
                 {/* <h6 className="text-white text-uppercase">Save 20%</h6>
                         <h3 className="text-white mb-3">Special Offer</h3> */}
-                <NavLink to="" className="btn btn-primary">
-                  Shop Now
-                </NavLink>
+                <div>
+                  <NavLink to="" className="btn btn-primary">
+                    Shop Now
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px", height:"200px"}}>
+          <div
+            class="col-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
+          >
             <div
               className="product-offer1 mb-30"
               style={{
@@ -242,12 +257,11 @@ const Home = () => {
       {/* <!-- Featured End --> */}
 
       {/* <!-- Categories Start --> */}
-      <div className="container-fluid">
+      <div className="container-fluid mt-3">
         <h2 className=" position-relative text-uppercase mx-xl-5 mb-1">
           <span
             className="bg-secondary fragrance pr-3"
             style={{
-              
               color: "#debe75",
               fontFamily: "bodoniflf",
             }}
@@ -258,7 +272,6 @@ const Home = () => {
           <span
             className="bg-secondary categories pr-3"
             style={{
-              
               color: "#debe75",
               fontFamily: "bodoniflf",
             }}
@@ -605,10 +618,8 @@ const Home = () => {
           <span
             className="bg-secondary trending pr-3"
             style={{
-              
               color: "#debe75",
               fontFamily: "bodoniflf",
-              
             }}
           >
             Special
@@ -617,7 +628,6 @@ const Home = () => {
           <span
             className="collect"
             style={{
-             
               color: "#debe75",
               fontFamily: "bodoniflf",
             }}
@@ -626,7 +636,10 @@ const Home = () => {
           </span>
         </h2>
         <div class="row">
-          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px"}}>
+          <div
+            class="col-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px" }}
+          >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
               <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
               <div className="offer-text">
@@ -638,7 +651,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="col-6" style={{paddingLeft: "5px", paddingRight:"5px"}}>
+          <div
+            class="col-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px" }}
+          >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
               <img className="img-fluid" src="img/al-barid.jfif" alt="" />
               <div className="offer-text">
