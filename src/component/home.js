@@ -23,10 +23,10 @@ const Home = () => {
               <li data-target="#header-carousel" data-slide-to="1"></li>
               <li data-target="#header-carousel" data-slide-to="2"></li>
             </ol> */}
-            <div className="carousel-inner" style={{ height: "244px" }}>
+            <div className="carousel-inner">
               <div
                 className="carousel-item position-relative active"
-                style={{ height: "244px" }}
+                
               >
                 <img
                   className="position-absolute w-100 h-100"
