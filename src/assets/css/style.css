@@ -9968,7 +9968,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(61, 70, 77, 0.5);
+  /* background: rgba(61, 70, 77, 0.5); */
   z-index: 1;
 }
 
