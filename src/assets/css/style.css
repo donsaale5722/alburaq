@@ -10200,6 +10200,9 @@ h6 {
   .carousel-item{
     height: 213px;
   }
+  .mobileno{
+    height: 35px;
+  }
 }
 @media (min-width:991px){
   .carousel-inner{

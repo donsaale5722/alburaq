@@ -30,7 +30,7 @@ const Home = () => {
               >
                 <img
                   className="position-absolute w-100 h-100"
-                  src="./img/banner.jpg"
+                  src="./img/banner2.jpeg"
                   alt="description"
                   
                 />
@@ -182,7 +182,29 @@ const Home = () => {
         </h2>
         <div class="row">
           <div
-            class="col-6"
+            class="col-lg-3 col-xs-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
+          >
+            <div
+              className="product-offer1 mb-20"
+              style={{
+                height: "200px",
+              }}
+            >
+              <img className="img-fluid" src="img/trending1.jpeg" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <div>
+                  <NavLink to="" className="btn btn-primary">
+                    Shop Now
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-xs-6"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -204,7 +226,29 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-6"
+            class="col-lg-3 col-xs-6"
+            style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
+          >
+            <div
+              className="product-offer1 mb-20"
+              style={{
+                height: "200px",
+              }}
+            >
+              <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <div>
+                  <NavLink to="" className="btn btn-primary">
+                    Shop Now
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-xs-6"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -637,7 +681,7 @@ const Home = () => {
         </h2>
         <div class="row">
           <div
-            class="col-6"
+            class="col-3"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
@@ -652,7 +696,37 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-6"
+            class="col-3"
+            style={{ paddingLeft: "5px", paddingRight: "5px" }}
+          >
+            <div className="product-offer1 mb-30" style={{ height: "200px" }}>
+              <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
+            style={{ paddingLeft: "5px", paddingRight: "5px" }}
+          >
+            <div className="product-offer1 mb-30" style={{ height: "200px" }}>
+              <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
+              <div className="offer-text">
+                {/* <h6 className="text-white text-uppercase">Save 20%</h6>
+                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                <NavLink to="" className="btn btn-primary">
+                  Shop Now
+                </NavLink>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
