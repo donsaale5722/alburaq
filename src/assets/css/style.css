@@ -10327,6 +10327,11 @@ h6 {
     top: -22px !important;
   }
 }
+@media(max-width:768px){
+  .mobile-trending{
+    display: none;
+  }
+}
 .filter {
   width: 14em;
 }

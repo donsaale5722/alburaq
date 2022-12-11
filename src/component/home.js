@@ -30,7 +30,7 @@ const Home = () => {
               >
                 <img
                   className="position-absolute w-100 h-100"
-                  src="./img/banner2.jpeg"
+                  src="./img/banner3.jpeg"
                   alt="description"
                   
                 />
@@ -182,7 +182,7 @@ const Home = () => {
         </h2>
         <div class="row">
           <div
-            class="col-lg-3 col-xs-6"
+            class="col-lg-3 col-6"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -204,7 +204,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-xs-6"
+            class="col-lg-3 col-6"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -226,7 +226,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-xs-6"
+            class="col-lg-3 col-6 mobile-trending d-sm-none d-xs-none"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -248,7 +248,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-xs-6"
+            class="col-lg-3 col-6 mobile-trending d-sm-none"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -681,7 +681,7 @@ const Home = () => {
         </h2>
         <div class="row">
           <div
-            class="col-3"
+            class="col-lg-3 col-6 "
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
@@ -696,7 +696,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-3"
+            class="col-3 col-6"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
@@ -711,7 +711,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-3"
+            class="col-lg-3 col-6 mobile-trending d-sm-none"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
@@ -726,7 +726,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-3"
+            class="col-lg-3 col-6 mobile-trending d-sm-none"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
