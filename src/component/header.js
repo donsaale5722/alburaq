@@ -190,8 +190,10 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-
-              <div className="searchbar"
+              
+    
+  
+              <div className="searchbar" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
                 style={{
                   width: "100px",
                   marginLeft: "36px",
@@ -199,11 +201,13 @@ const Header = () => {
                   color:"#4a4a4a",
                 }}
               >
+              
                 <i
                   class="fa fa-search"
                   data-toggle="modal"
                   data-target="#myModal"
                 ></i>
+                
               </div>
 
               <NavLink
@@ -397,6 +401,17 @@ const Header = () => {
           </div>
         </div>
       </div> */}
+      <div class="collapse" id="collapseExample">
+      <div class="input-group rounded">
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+  <span class="input-group-text border-0" id="search-addon">
+    <i class="fas fa-search"></i>
+  </span>
+</div>
+  {/* <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div> */}
+</div>
     </>
   );
 };

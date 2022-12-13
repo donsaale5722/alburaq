@@ -192,15 +192,15 @@ const Home = () => {
               }}
             >
               <img className="img-fluid" src="img/trending1.jpeg" alt="" />
-              <div className="offer-text">
+              {/* <div className="offer-text">
                 {/* <h6 className="text-white text-uppercase">Save 20%</h6>
-                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                        <h3 className="text-white mb-3">Special Offer</h3> 
                 <div>
                   <NavLink to="" className="btn btn-primary">
                     Shop Now
                   </NavLink>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -213,16 +213,16 @@ const Home = () => {
                 height: "200px",
               }}
             >
-              <img className="img-fluid" src="img/oud-mikhlaat.jfif" alt="" />
-              <div className="offer-text">
+              <img className="img-fluid" src="img/trending2.jpeg" alt="" />
+              {/* <div className="offer-text">
                 {/* <h6 className="text-white text-uppercase">Save 20%</h6>
-                        <h3 className="text-white mb-3">Special Offer</h3> */}
+                        <h3 className="text-white mb-3">Special Offer</h3> 
                 <div>
                   <NavLink to="" className="btn btn-primary">
                     Shop Now
                   </NavLink>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
