@@ -1,13 +1,23 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
+import { useState } from "react";
+import { Sidebardata } from "./sidebardata";
 
 const Header = () => {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
   return (
     <>
       {/* 
 <!-- Topbar Start --> */}
       <div className="container-fluid">
-        <div className="row mobileno py-1 px-xl-5" style={{backgroundColor:"#debe75"}}>
+        <div
+          className="row mobileno py-1 px-xl-5"
+          style={{ backgroundColor: "#debe75" }}
+        >
           <h5
             className="font-weight-semi-bold"
             style={{ marginLeft: "86px", marginTop: "5px" }}
@@ -123,22 +133,22 @@ const Header = () => {
               </div>
             </nav>
           </div>
-          <div className="col-lg-9 col-sm-12 ">
+          <div className="col-lg-9 col-sm-12 d-flex align-items-center" style={{height:"54px"}}>
             <nav className="navbar navbar-expand-lg navbar  py-lg-0 px-0">
               {/* <!--/.Navbar--> */}
               {/* <div className="header"></div> */}
               {/* <i class="fas fa-plus" data-toggle="modal" data-target="#myModal"></i> */}
-              <div className="wrapper1">
+              {/* <div className="wrapper1">
                 <input type="checkbox" id="btn" hidden />
                 <label for="btn" className="menu-btn">
                   <i className="fas fa-bars"></i>
                   <i className="fas fa-times"></i>
                 </label>
-                <nav id="sidebar">
+                <nav id="sidebar" >
                   <div className="title">Side Menu</div>
                   <ul className="list-items">
                     <li>
-                      <NavLink to="/">
+                      <NavLink to="/" >
                         <i class="fa fa-angle-right"></i>Home
                       </NavLink>
                     </li>
@@ -187,78 +197,36 @@ const Header = () => {
                         <i className="fab fa-youtube"></i>
                       </NavLink>
                     </div> */}
-                  </ul>
+              {/* </ul>
                 </nav>
               </div>
-              
-    
-  
-              <div className="searchbar" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
-                style={{
-                  width: "100px",
-                  marginLeft: "36px",
-                  fontSize: "25px",
-                  color:"#4a4a4a",
-                }}
-              >
-              
-                <i
-                  class="fa fa-search"
-                  data-toggle="modal"
-                  data-target="#myModal"
-                ></i>
-                
-              </div>
+                */}
 
-              <NavLink
-                to="/"
-                className="mobile text-decoration-none d-block d-lg-none"
-                style={{ marginLeft: "22%", marginTop: "-41px" }}
-              >
-                <span
-                  className="h1 al text-uppercase px-1"
-                  style={{ color: "#debe75", fontFamily: "bodoniflf ", fontSize:"35px"}}
-                >
-                  Al
-                </span>
-                <span
-                  className="h1 burq text-uppercase px-1 ml-n1"
-                  style={{ color: "#debe75", fontFamily: "bodoniflf" ,fontSize:"35px"}}
-                >
-                  BuraQ
-                </span>
-              </NavLink>
-              <NavLink to="/userlogin">
-                <div
-                  className="userlogin"
-                  style={{
-                    marginTop: "-37px",
-                    marginRight: "36px",
-                    fontSize: "23px",
-                    color: "#4a4a4a",
-                  }}
-                >
-                  <i class="fa fa-user"></i>
-                </div>
-              </NavLink>
-              <div
-                className="shopingcart"
-                style={{
-                  marginTop: "-42px",
-                  marginLeft: "93%",
-                  fontSize: "23px",
-                  color: "#4a4a4a",
-                }}
-              >
-                <NavLink to="/cart">
-                  <i
-                    className="fas fa-shopping-cart"
-                    style={{
-                      color: "#4a4a4a",
-                    }}
-                  ></i>
+              <div className="navbar2">
+                <NavLink to="#" className="menu-bars" >
+                  <FaIcons.FaBars onClick={showSidebar} style={{color:"#debe75"}}/>
                 </NavLink>
               </div>
+              <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+                <ul className="nav-menu-items" onClick={showSidebar}>
+                  <li className="navbar-toggle">
+                    <NavLink to="#" className="menu-bars">
+                      <AiIcons.AiOutlineClose />
+                    </NavLink>
+                  </li>
+                  {Sidebardata.map((item, index) => {
+                    return (
+                      <li key={index} className={item.cName}>
+                        <NavLink to={item.path}>
+                          {item.icon}
+                          <span>{item.title}</span>
+                        </NavLink>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+
               {/* <NavLink
                   to=""
                   className="btn px-0 ml-3"
@@ -274,14 +242,14 @@ const Header = () => {
                     0
                   </span>
                 </NavLink> */}
-              <button
+              {/* <button
                 type="button"
                 className="navbar-toggler"
                 data-toggle="collapse"
                 data-target="#navbarCollapse"
               >
                 <span className="navbar-toggler-icon"></span>
-              </button>
+              </button> */}
               <div
                 className="collapse navbar-collapse justify-content-between"
                 id="navbarCollapse"
@@ -364,6 +332,89 @@ const Header = () => {
               </div>
               {/* </div> */}
             </nav>
+            <div
+              className="searchbar"
+              data-toggle="collapse"
+              data-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+              style={{
+                fontSize: "25px",
+                color: "#4a4a4a",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            >
+              <i
+                class="fa fa-search"
+                data-toggle="modal"
+                data-target="#myModal"
+              ></i>
+            </div>
+
+            <NavLink
+              to="/"
+              className="mobile text-decoration-none d-block d-lg-none"
+              style={{ marginLeft: "auto", marginRight: "auto" }}
+            >
+              <span
+                className="h1 al text-uppercase px-1"
+                style={{
+                  color: "#debe75",
+                  fontFamily: "bodoniflf ",
+                  fontSize: "35px",
+                }}
+              >
+                Al
+              </span>
+              <span
+                className="h1 burq text-uppercase px-1 ml-n1"
+                style={{
+                  color: "#debe75",
+                  fontFamily: "bodoniflf",
+                  fontSize: "35px",
+                }}
+              >
+                BuraQ
+              </span>
+            </NavLink>
+            <NavLink
+              to="/userlogin"
+              style={{
+                marginLeft: "auto",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            >
+              <div
+                className="userlogin"
+                style={{
+                  marginLeft: "auto",
+                  fontSize: "23px",
+                  color: "#4a4a4a",
+                }}
+              >
+                <i class="fa fa-user"></i>
+              </div>
+            </NavLink>
+            <div
+              className="shopingcart"
+              style={{
+                fontSize: "23px",
+                color: "#4a4a4a",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            >
+              <NavLink to="/cart">
+                <i
+                  className="fas fa-shopping-cart"
+                  style={{
+                    color: "#4a4a4a",
+                  }}
+                ></i>
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
@@ -402,16 +453,22 @@ const Header = () => {
         </div>
       </div> */}
       <div class="collapse" id="collapseExample">
-      <div class="input-group rounded">
-  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-  <span class="input-group-text border-0" id="search-addon">
-    <i class="fas fa-search"></i>
-  </span>
-</div>
-  {/* <div class="card card-body">
+        <div class="input-group rounded">
+          <input
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="search-addon"
+          />
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+        {/* <div class="card card-body">
     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
   </div> */}
-</div>
+      </div>
     </>
   );
 };

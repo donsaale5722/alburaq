@@ -11,9 +11,9 @@ import Cart from "./component/cart";
 // import About from './component/about';
 import Contact from "./component/contact";
 import Footer from "./component/footer";
+import Userlogin from "./component/userlogin";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Userlogin from "./component/userlogin";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
           <Route path="/cart" element={<Cart />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/userlogin" element={<Userlogin />}></Route>
+          
         </Routes>
         <Footer />
       </Router>
