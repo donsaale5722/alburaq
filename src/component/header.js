@@ -53,7 +53,9 @@ const Header = () => {
             </form>
           </div>
           <div className="col-lg-4 col-6 text-right">
-            <p className="m-0">Customer Service</p>
+            <p className="m-0" style={{ fontSize: "1rem", fontWeight:"bold" }}>
+              Customer Service
+            </p>
             <h5 className="m-0">+012 345 6789</h5>
           </div>
         </div>
@@ -133,7 +135,10 @@ const Header = () => {
               </div>
             </nav>
           </div>
-          <div className="col-lg-9 col-sm-12 d-flex align-items-center" style={{height:"54px"}}>
+          <div
+            className="col-lg-9 col-sm-12 d-flex align-items-center"
+            style={{ height: "54px" }}
+          >
             <nav className="navbar navbar-expand-lg navbar  py-lg-0 px-0">
               {/* <!--/.Navbar--> */}
               {/* <div className="header"></div> */}
@@ -203,8 +208,11 @@ const Header = () => {
                 */}
 
               <div className="navbar2">
-                <NavLink to="#" className="menu-bars" >
-                  <FaIcons.FaBars onClick={showSidebar} style={{color:"#debe75"}}/>
+                <NavLink to="#" className="menu-bars">
+                  <FaIcons.FaBars
+                    onClick={showSidebar}
+                    style={{ color: "#debe75" }}
+                  />
                 </NavLink>
               </div>
               <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
