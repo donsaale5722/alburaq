@@ -24,15 +24,11 @@ const Home = () => {
               <li data-target="#header-carousel" data-slide-to="2"></li>
             </ol> */}
             <div className="carousel-inner">
-              <div
-                className="carousel-item position-relative active"
-                
-              >
+              <div className="carousel-item position-relative active">
                 <img
                   className="position-absolute w-100 h-100"
                   src="./img/banner3.jpeg"
                   alt="description"
-                  
                 />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div
@@ -60,7 +56,6 @@ const Home = () => {
                   className="position-absolute w-100 h-100"
                   src="./img/"
                   alt="description"
-                  
                 />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div
@@ -88,7 +83,6 @@ const Home = () => {
                   className="position-absolute w-100 h-100"
                   src="./img/carousel-3.jpg"
                   alt="description"
-                  
                 />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div
@@ -226,7 +220,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-6 mobile-trending d-sm-none d-xs-none"
+            class="col-lg-3 col-6 mobile-trending"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -248,7 +242,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-6 mobile-trending d-sm-none"
+            class="col-lg-3 col-6 mobile-trending"
             style={{ paddingLeft: "5px", paddingRight: "5px", height: "200px" }}
           >
             <div
@@ -696,7 +690,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-3 col-6"
+            class="col-lg-3 col-6"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
@@ -711,7 +705,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-6 mobile-trending d-sm-none"
+            class="col-lg-3 col-6 mobile-trending"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
@@ -726,7 +720,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            class="col-lg-3 col-6 mobile-trending d-sm-none"
+            class="col-lg-3 col-6 mobile-trending"
             style={{ paddingLeft: "5px", paddingRight: "5px" }}
           >
             <div className="product-offer1 mb-30" style={{ height: "200px" }}>
