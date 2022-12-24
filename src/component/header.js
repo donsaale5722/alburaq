@@ -53,7 +53,7 @@ const Header = () => {
             </form>
           </div>
           <div className="col-lg-4 col-6 text-right">
-            <p className="m-0" style={{ fontSize: "1rem", fontWeight:"bold" }}>
+            <p className="m-0" style={{ fontSize: "1rem", fontWeight: "bold" }}>
               Customer Service
             </p>
             <h5 className="m-0">+012 345 6789</h5>
@@ -369,7 +369,7 @@ const Header = () => {
                 className="h1 al text-uppercase px-1"
                 style={{
                   color: "#debe75",
-                  fontFamily: "bodoniflf ",
+                  fontFamily: "rasa ",
                   fontSize: "35px",
                 }}
               >
@@ -379,7 +379,7 @@ const Header = () => {
                 className="h1 burq text-uppercase px-1 ml-n1"
                 style={{
                   color: "#debe75",
-                  fontFamily: "bodoniflf",
+                  fontFamily: "rasa",
                   fontSize: "35px",
                 }}
               >
